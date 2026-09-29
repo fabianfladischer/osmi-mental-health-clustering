@@ -1,0 +1,2579 @@
+{
+  "auswahl": {
+    "entfernt_korrelation": [],
+    "final_merkmale": [
+      "mh_benefits",
+      "care_options_known",
+      "wellness_discussed",
+      "mh_resources",
+      "anonymity_protected",
+      "leave_ease",
+      "mh_neg_consequence_employer",
+      "ph_neg_consequence_employer",
+      "comfort_coworkers",
+      "comfort_supervisor",
+      "mh_parity",
+      "observed_neg_consequences",
+      "career_hurt",
+      "coworkers_view_negative",
+      "unsupportive_response",
+      "uncertainty_index"
+    ],
+    "max_abs_rho": 0.624348,
+    "max_abs_rho_paar": [
+      "comfort_coworkers",
+      "comfort_supervisor"
+    ],
+    "min_varianz": 0.041563,
+    "min_varianz_merkmal": "uncertainty_index",
+    "n_eindeutige_muster": 1117,
+    "n_final": 16,
+    "n_kandidaten": 16,
+    "n_nach_varianz": 16,
+    "n_paare_rho_ueber_berichtsschwelle": 6,
+    "varianzen": {
+      "anonymity_protected": 0.0771,
+      "care_options_known": 0.143,
+      "career_hurt": 0.045,
+      "comfort_coworkers": 0.1426,
+      "comfort_supervisor": 0.1647,
+      "coworkers_view_negative": 0.0492,
+      "leave_ease": 0.0959,
+      "mh_benefits": 0.1695,
+      "mh_neg_consequence_employer": 0.1337,
+      "mh_parity": 0.1419,
+      "mh_resources": 0.1691,
+      "observed_neg_consequences": 0.0755,
+      "ph_neg_consequence_employer": 0.0702,
+      "uncertainty_index": 0.0416,
+      "unsupportive_response": 0.1332,
+      "wellness_discussed": 0.161
+    }
+  },
+  "bereinigung": {
+    "alter_median": 32.0,
+    "alter_unplausibel_n": 4,
+    "alter_unplausibel_werte": [
+      3,
+      17,
+      99,
+      323
+    ],
+    "geschlecht_varianten_unter_min_n": 49,
+    "geschlecht_verteilung": {
+      "divers/andere": 23,
+      "keine Angabe": 4,
+      "maennlich": 841,
+      "weiblich": 263
+    },
+    "n_diagnose_rohvarianten": 27,
+    "n_geschlecht_rohvarianten": 56,
+    "n_rollen_kategorien": 12,
+    "n_rollen_mehrfachnennung": 462,
+    "region_verteilung": {
+      "Nordamerika": 763,
+      "Osteuropa": 25,
+      "Ozeanien": 32,
+      "Sonstige": 40,
+      "UK/Irland": 143,
+      "Westeuropa": 128
+    }
+  },
+  "daten": {
+    "alter_max_roh": 323,
+    "alter_min_roh": 3,
+    "anteil_usa_arbeit": 0.593859,
+    "arbeitgeberfragen_fehlend_alle_selbststaendig": true,
+    "arbeitgeberfragen_fehlend_n": 287,
+    "fehlwertquote_gesamt": 0.243246,
+    "fehlwertquote_je_spalte": {
+      "age": 0.0,
+      "anonymity_protected": 0.2003,
+      "care_options_known": 0.2931,
+      "career_hurt": 0.0,
+      "comfort_coworkers": 0.2003,
+      "comfort_supervisor": 0.2003,
+      "company_size": 0.2003,
+      "country_live": 0.0,
+      "country_work": 0.0,
+      "coworkers_view_negative": 0.0,
+      "diagnosed_professional": 0.0,
+      "diagnoses_believed_maybe": 0.7753,
+      "diagnoses_current_yes": 0.6036,
+      "diagnoses_professional": 0.5038,
+      "family_history": 0.0,
+      "gender": 0.0021,
+      "has_prev_employer": 0.0,
+      "interference_treated": 0.0,
+      "interference_untreated": 0.0,
+      "interview_mh": 0.0,
+      "interview_mh_why": 0.2142,
+      "interview_ph": 0.0,
+      "interview_ph_why": 0.2359,
+      "leave_ease": 0.2003,
+      "mh_benefits": 0.2003,
+      "mh_current": 0.0,
+      "mh_neg_consequence_employer": 0.2003,
+      "mh_parity": 0.2003,
+      "mh_past": 0.0,
+      "mh_resources": 0.2003,
+      "observation_less_likely_reveal": 0.5415,
+      "observed_neg_consequences": 0.2003,
+      "openness_friends_family": 0.0,
+      "ph_neg_consequence_employer": 0.2003,
+      "prev_anonymity": 0.1179,
+      "prev_benefits": 0.1179,
+      "prev_care_options_known": 0.1179,
+      "prev_comfort_coworkers": 0.1179,
+      "prev_comfort_supervisor": 0.1179,
+      "prev_mh_neg_consequence": 0.1179,
+      "prev_mh_parity": 0.1179,
+      "prev_observed_neg_consequences": 0.1179,
+      "prev_ph_neg_consequence": 0.1179,
+      "prev_resources": 0.1179,
+      "prev_wellness_discussed": 0.1179,
+      "remote": 0.0,
+      "self_employed": 0.0,
+      "self_know_resources": 0.7997,
+      "self_med_coverage": 0.7997,
+      "self_productivity_affected": 0.7997,
+      "self_reveal_clients": 0.7997,
+      "self_reveal_clients_impact": 0.8995,
+      "self_reveal_coworkers": 0.7997,
+      "self_reveal_coworkers_impact": 0.7997,
+      "self_worktime_affected": 0.8576,
+      "tech_company": 0.2003,
+      "tech_role": 0.8165,
+      "treatment_sought": 0.0,
+      "unsupportive_response": 0.0621,
+      "us_state_live": 0.4138,
+      "us_state_work": 0.4061,
+      "wellness_discussed": 0.2003,
+      "work_position": 0.0
+    },
+    "n_freitext_interview_mh_why": 1126,
+    "n_numerisch": 7,
+    "n_spalten": 63,
+    "n_spalten_fehlwerte_ueber_50": 13,
+    "n_spalten_mit_fehlwerten": 44,
+    "n_text": 56,
+    "n_zeilen": 1433,
+    "remote_verteilung": {
+      "Always": 343,
+      "Never": 333,
+      "Sometimes": 757
+    },
+    "selbststaendige_n": 287,
+    "sha256": "0bec458b0724cc375a17eb2db0204a9f7a786260441cf702eec210d92bd4ae4d",
+    "top_laender_arbeit": {
+      "Canada": 74,
+      "Germany": 58,
+      "Netherlands": 47,
+      "United Kingdom": 183,
+      "United States of America": 851
+    },
+    "unternehmensgroesse_verteilung": {
+      "1-5": 60,
+      "100-500": 248,
+      "26-100": 292,
+      "500-1000": 80,
+      "6-25": 210,
+      "More than 1000": 256
+    }
+  },
+  "ergaenzungen": {
+    "anteil_mind_ein_weiss_nicht": 0.881521,
+    "anteil_nordamerika_je_cluster": {
+      "1": 0.6,
+      "2": 0.509,
+      "3": 0.8819,
+      "4": 0.7425
+    },
+    "besetzung_0_5_je_item": {
+      "anonymity_protected": {
+        "fehlend_mit_0_5": 0,
+        "weiss_nicht_mit_0_5": 736,
+        "wert_0_5_gesamt": 736
+      },
+      "care_options_known": {
+        "fehlend_mit_0_5": 133,
+        "weiss_nicht_mit_0_5": 349,
+        "wert_0_5_gesamt": 482
+      },
+      "career_hurt": {
+        "fehlend_mit_0_5": 0,
+        "weiss_nicht_mit_0_5": 0,
+        "wert_0_5_gesamt": 466
+      },
+      "comfort_coworkers": {
+        "fehlend_mit_0_5": 0,
+        "weiss_nicht_mit_0_5": 0,
+        "wert_0_5_gesamt": 474
+      },
+      "comfort_supervisor": {
+        "fehlend_mit_0_5": 0,
+        "weiss_nicht_mit_0_5": 0,
+        "wert_0_5_gesamt": 378
+      },
+      "coworkers_view_negative": {
+        "fehlend_mit_0_5": 0,
+        "weiss_nicht_mit_0_5": 0,
+        "wert_0_5_gesamt": 456
+      },
+      "leave_ease": {
+        "fehlend_mit_0_5": 0,
+        "weiss_nicht_mit_0_5": 149,
+        "wert_0_5_gesamt": 325
+      },
+      "mh_benefits": {
+        "fehlend_mit_0_5": 0,
+        "nicht_berechtigt_mit_0": 81,
+        "weiss_nicht_mit_0_5": 316,
+        "wert_0_5_gesamt": 316
+      },
+      "mh_neg_consequence_employer": {
+        "fehlend_mit_0_5": 0,
+        "weiss_nicht_mit_0_5": 0,
+        "wert_0_5_gesamt": 482
+      },
+      "mh_parity": {
+        "fehlend_mit_0_5": 0,
+        "weiss_nicht_mit_0_5": 487,
+        "wert_0_5_gesamt": 487
+      },
+      "mh_resources": {
+        "fehlend_mit_0_5": 0,
+        "weiss_nicht_mit_0_5": 318,
+        "wert_0_5_gesamt": 318
+      },
+      "observed_neg_consequences": {
+        "fehlend_mit_0_5": 0,
+        "weiss_nicht_mit_0_5": 0,
+        "wert_0_5_gesamt": 0
+      },
+      "ph_neg_consequence_employer": {
+        "fehlend_mit_0_5": 0,
+        "weiss_nicht_mit_0_5": 0,
+        "wert_0_5_gesamt": 260
+      },
+      "unsupportive_response": {
+        "fehlend_mit_0_5": 51,
+        "weiss_nicht_mit_0_5": 0,
+        "wert_0_5_gesamt": 323
+      },
+      "wellness_discussed": {
+        "fehlend_mit_0_5": 0,
+        "weiss_nicht_mit_0_5": 102,
+        "wert_0_5_gesamt": 102
+      }
+    },
+    "bonferroni_tests": {
+      "je_rolle": {
+        "konstruktnah": 2,
+        "unabhängige Profilvariable": 11,
+        "zirkulär – nur deskriptiv": 4
+      },
+      "n_chi2": 12,
+      "n_kruskal_wallis": 5,
+      "n_tests": 17
+    },
+    "calinski_harabasz_iterationen_k4": {
+      "Baseline": {
+        "eigener_raum": 70.7003,
+        "gemeinsamer_raum": 51.9068
+      },
+      "Iteration 2 (z)": {
+        "eigener_raum": 215.707,
+        "gemeinsamer_raum": 159.999
+      },
+      "Iteration 3 (final)": {
+        "eigener_raum": 238.015,
+        "gemeinsamer_raum": 180.377
+      }
+    },
+    "calinski_harabasz_kmeans_je_k": {
+      "2": {
+        "gemeinsamer_raum": 280.745,
+        "modellraum": 353.498
+      },
+      "3": {
+        "gemeinsamer_raum": 217.353,
+        "modellraum": 281.321
+      },
+      "4": {
+        "gemeinsamer_raum": 180.377,
+        "modellraum": 238.015
+      },
+      "5": {
+        "gemeinsamer_raum": 154.926,
+        "modellraum": 207.67
+      },
+      "6": {
+        "gemeinsamer_raum": 140.145,
+        "modellraum": 190.578
+      }
+    },
+    "geschlecht": {
+      "fehlend_n": 3,
+      "keine_angabe_n": 4,
+      "mapping_zeilen": [
+        {
+          "kategorie": "divers/andere oder keine Angabe",
+          "n": 27,
+          "rohwert": "21 weitere Schreibweisen (je n < 10)"
+        },
+        {
+          "kategorie": "maennlich",
+          "n": 506,
+          "rohwert": "Male"
+        },
+        {
+          "kategorie": "maennlich",
+          "n": 196,
+          "rohwert": "male"
+        },
+        {
+          "kategorie": "maennlich",
+          "n": 69,
+          "rohwert": "M"
+        },
+        {
+          "kategorie": "maennlich",
+          "n": 55,
+          "rohwert": "m"
+        },
+        {
+          "kategorie": "maennlich",
+          "n": 15,
+          "rohwert": "13 weitere Schreibweisen (je n < 10)"
+        },
+        {
+          "kategorie": "weiblich",
+          "n": 124,
+          "rohwert": "Female"
+        },
+        {
+          "kategorie": "weiblich",
+          "n": 78,
+          "rohwert": "female"
+        },
+        {
+          "kategorie": "weiblich",
+          "n": 23,
+          "rohwert": "F"
+        },
+        {
+          "kategorie": "weiblich",
+          "n": 20,
+          "rohwert": "f"
+        },
+        {
+          "kategorie": "weiblich",
+          "n": 18,
+          "rohwert": "15 weitere Schreibweisen (je n < 10)"
+        }
+      ],
+      "rohvarianten_inkl_fehlend": 57,
+      "rohvarianten_ohne_fehlend": 56
+    },
+    "indizes": {
+      "openness_index": {
+        "invertiert": false,
+        "items": [
+          "comfort_coworkers",
+          "comfort_supervisor"
+        ],
+        "items_de": [
+          "Offenheit ggü. Kollegium",
+          "Offenheit ggü. Vorgesetzten"
+        ],
+        "n_items": 2
+      },
+      "stigma_index": {
+        "invertiert": true,
+        "items": [
+          "mh_neg_consequence_employer",
+          "observed_neg_consequences",
+          "career_hurt",
+          "coworkers_view_negative",
+          "unsupportive_response"
+        ],
+        "items_de": [
+          "Keine neg. Folgen (psychisch)",
+          "Keine neg. Folgen beobachtet",
+          "Kein Karriereschaden erwartet",
+          "Keine Abwertung durch Team",
+          "Keine schlechte Reaktion erlebt"
+        ],
+        "n_items": 5
+      },
+      "support_index": {
+        "invertiert": false,
+        "items": [
+          "mh_benefits",
+          "care_options_known",
+          "wellness_discussed",
+          "mh_resources",
+          "anonymity_protected"
+        ],
+        "items_de": [
+          "Leistungen psych. Gesundheit",
+          "Versorgungsoptionen bekannt",
+          "Thema offiziell kommuniziert",
+          "Informationsressourcen",
+          "Anonymität geschützt"
+        ],
+        "n_items": 5
+      },
+      "uncertainty_index": {
+        "gezaehlte_antworten": [
+          "I don't know",
+          "I am not sure"
+        ],
+        "invertiert": false,
+        "items": [
+          "mh_benefits",
+          "care_options_known",
+          "wellness_discussed",
+          "mh_resources",
+          "anonymity_protected",
+          "leave_ease",
+          "mh_parity"
+        ],
+        "items_de": [
+          "Leistungen psych. Gesundheit",
+          "Versorgungsoptionen bekannt",
+          "Thema offiziell kommuniziert",
+          "Informationsressourcen",
+          "Anonymität geschützt",
+          "Freistellung leicht",
+          "Psych. = körperl. Gesundheit"
+        ],
+        "n_items": 7
+      }
+    },
+    "k2": {
+      "ari_zu_k4": 0.350842,
+      "bootstrap_ari_median": 0.92024,
+      "bootstrap_ari_mittel": 0.919018,
+      "bootstrap_ari_q05": 0.853411,
+      "calinski_harabasz": 353.498,
+      "davies_bouldin": 1.74735,
+      "differenz_c1_minus_c2": {
+        "anonymity_protected": 0.174,
+        "care_options_known": 0.1512,
+        "career_hurt": 0.1894,
+        "comfort_coworkers": 0.4466,
+        "comfort_supervisor": 0.5702,
+        "coworkers_view_negative": 0.2011,
+        "leave_ease": 0.3434,
+        "mh_benefits": 0.197,
+        "mh_neg_consequence_employer": 0.4888,
+        "mh_parity": 0.3996,
+        "mh_resources": 0.261,
+        "observed_neg_consequences": 0.0833,
+        "ph_neg_consequence_employer": 0.216,
+        "uncertainty_index": -0.0483,
+        "unsupportive_response": 0.1404,
+        "wellness_discussed": 0.302
+      },
+      "groessen": {
+        "1": 566,
+        "2": 565
+      },
+      "hk1_mittel_je_cluster": {
+        "1": 0.597974,
+        "2": -0.599033
+      },
+      "index_mittelwerte": {
+        "1": {
+          "openness_index": 0.7496,
+          "stigma_index": 0.2806,
+          "support_index": 0.5728,
+          "uncertainty_index": 0.2862
+        },
+        "2": {
+          "openness_index": 0.2412,
+          "stigma_index": 0.5012,
+          "support_index": 0.3558,
+          "uncertainty_index": 0.3345
+        }
+      },
+      "kreuztabelle_k4": {
+        "1": {
+          "1": 295,
+          "2": 0,
+          "3": 39,
+          "4": 232,
+          "Summe": 566
+        },
+        "2": {
+          "1": 55,
+          "2": 277,
+          "3": 232,
+          "4": 1,
+          "Summe": 565
+        },
+        "Summe": {
+          "1": 350,
+          "2": 277,
+          "3": 271,
+          "4": 233,
+          "Summe": 1131
+        }
+      },
+      "min_share": 0.499558,
+      "mittelwerte": {
+        "1": {
+          "anonymity_protected": 0.6882,
+          "care_options_known": 0.5539,
+          "career_hurt": 0.5004,
+          "comfort_coworkers": 0.6723,
+          "comfort_supervisor": 0.8269,
+          "coworkers_view_negative": 0.6078,
+          "leave_ease": 0.7363,
+          "mh_benefits": 0.7014,
+          "mh_neg_consequence_employer": 0.8428,
+          "mh_parity": 0.7208,
+          "mh_resources": 0.5274,
+          "observed_neg_consequences": 0.9594,
+          "ph_neg_consequence_employer": 0.9576,
+          "uncertainty_index": 0.2862,
+          "unsupportive_response": 0.6868,
+          "wellness_discussed": 0.3931
+        },
+        "2": {
+          "anonymity_protected": 0.5142,
+          "care_options_known": 0.4027,
+          "career_hurt": 0.3111,
+          "comfort_coworkers": 0.2257,
+          "comfort_supervisor": 0.2566,
+          "coworkers_view_negative": 0.4066,
+          "leave_ease": 0.3929,
+          "mh_benefits": 0.5044,
+          "mh_neg_consequence_employer": 0.354,
+          "mh_parity": 0.3212,
+          "mh_resources": 0.2664,
+          "observed_neg_consequences": 0.8761,
+          "ph_neg_consequence_employer": 0.7416,
+          "uncertainty_index": 0.3345,
+          "unsupportive_response": 0.5465,
+          "wellness_discussed": 0.0912
+        },
+        "gesamt": {
+          "anonymity_protected": 0.6012,
+          "care_options_known": 0.4783,
+          "career_hurt": 0.4058,
+          "comfort_coworkers": 0.4492,
+          "comfort_supervisor": 0.542,
+          "coworkers_view_negative": 0.5073,
+          "leave_ease": 0.5648,
+          "mh_benefits": 0.603,
+          "mh_neg_consequence_employer": 0.5986,
+          "mh_parity": 0.5212,
+          "mh_resources": 0.397,
+          "observed_neg_consequences": 0.9178,
+          "ph_neg_consequence_employer": 0.8497,
+          "uncertainty_index": 0.3103,
+          "unsupportive_response": 0.6167,
+          "wellness_discussed": 0.2423
+        }
+      },
+      "silhouette": 0.208908,
+      "silhouette_gemeinsamer_raum": 0.17626,
+      "zentroidabstand_anteil_je_hk": {
+        "HK1": 0.9927,
+        "HK2": 0.0052,
+        "HK3": 0.0005,
+        "HK4": 0.0011,
+        "HK5": 0.0003,
+        "HK6": 0.0,
+        "HK7": 0.0,
+        "HK8": 0.0001,
+        "HK9": 0.0
+      }
+    },
+    "kreuztabelle_k3_k4": {
+      "1": {
+        "1": 0,
+        "2": 254,
+        "3": 215,
+        "4": 0,
+        "Summe": 469
+      },
+      "2": {
+        "1": 348,
+        "2": 23,
+        "3": 33,
+        "4": 1,
+        "Summe": 405
+      },
+      "3": {
+        "1": 2,
+        "2": 0,
+        "3": 23,
+        "4": 232,
+        "Summe": 257
+      },
+      "Summe": {
+        "1": 350,
+        "2": 277,
+        "3": 271,
+        "4": 233,
+        "Summe": 1131
+      }
+    },
+    "mds_nichtmetrisch": {
+      "metrisch_stress_1": 0.254279,
+      "metrisch_trustworthiness_k10": 0.850675,
+      "metrisch_trustworthiness_k5": 0.854182,
+      "stress_1": 0.235084,
+      "trustworthiness_gower_k10": 0.85099,
+      "trustworthiness_gower_k5": 0.855345,
+      "trustworthiness_k10": 0.847512,
+      "trustworthiness_k5": 0.851102
+    },
+    "n_init": {
+      "gmm": 5,
+      "kmeans": 20,
+      "mds": 2
+    },
+    "sensitivitaet": {
+      "nur_usa": {
+        "ari_zur_hauptloesung": 0.65263,
+        "n": 702,
+        "pca_n_komponenten": 8
+      },
+      "ohne_mh_benefits": {
+        "ari_zur_hauptloesung": 0.519338,
+        "clustergroessen": [
+          331,
+          318,
+          245,
+          237
+        ],
+        "hoechste_varianz": {
+          "care_options_known": 0.1431,
+          "comfort_coworkers": 0.1428,
+          "comfort_supervisor": 0.1648,
+          "mh_resources": 0.1692,
+          "wellness_discussed": 0.1612
+        },
+        "kreuztabelle": {
+          "1": {
+            "1": 305,
+            "2": 3,
+            "3": 11,
+            "4": 12
+          },
+          "2": {
+            "1": 32,
+            "2": 158,
+            "3": 125,
+            "4": 3
+          },
+          "3": {
+            "1": 13,
+            "2": 1,
+            "3": 14,
+            "4": 217
+          },
+          "4": {
+            "1": 0,
+            "2": 115,
+            "3": 121,
+            "4": 1
+          }
+        },
+        "n_merkmale": 15,
+        "pca_n_komponenten": 8
+      },
+      "ohne_usa": {
+        "ari_zur_hauptloesung": 0.660043,
+        "n": 429,
+        "pca_n_komponenten": 9
+      },
+      "weiss_nicht_als_indikator": {
+        "ari_zur_hauptloesung": 0.215448,
+        "clustergroessen": [
+          323,
+          313,
+          255,
+          240
+        ],
+        "hoechste_varianz": {
+          "dk_anonymity_protected": 0.2275,
+          "dk_care_options_known": 0.2135,
+          "dk_mh_benefits": 0.2015,
+          "dk_mh_parity": 0.2454,
+          "dk_mh_resources": 0.2023
+        },
+        "kreuztabelle": {
+          "1": {
+            "1": 114,
+            "2": 0,
+            "3": 14,
+            "4": 195
+          },
+          "2": {
+            "1": 79,
+            "2": 119,
+            "3": 103,
+            "4": 12
+          },
+          "3": {
+            "1": 150,
+            "2": 39,
+            "3": 40,
+            "4": 26
+          },
+          "4": {
+            "1": 7,
+            "2": 119,
+            "3": 114,
+            "4": 0
+          }
+        },
+        "n_merkmale": 22,
+        "pca_n_komponenten": 12
+      }
+    },
+    "stichprobe": [
+      {
+        "anteil": 1.0,
+        "auspraegung": "gesamt",
+        "merkmal": "Stichprobe",
+        "n": 1131
+      },
+      {
+        "anteil": 1.0,
+        "auspraegung": "Median 32 (IQR 28–38)",
+        "merkmal": "Alter",
+        "n": 1131
+      },
+      {
+        "anteil": 0.7436,
+        "auspraegung": "männlich",
+        "merkmal": "Geschlecht",
+        "n": 841
+      },
+      {
+        "anteil": 0.2325,
+        "auspraegung": "weiblich",
+        "merkmal": "Geschlecht",
+        "n": 263
+      },
+      {
+        "anteil": 0.0239,
+        "auspraegung": "zusammengefasst (keine Angabe, divers/andere)",
+        "merkmal": "Geschlecht",
+        "n": 27
+      },
+      {
+        "anteil": 0.6746,
+        "auspraegung": "Nordamerika",
+        "merkmal": "Arbeitsregion",
+        "n": 763
+      },
+      {
+        "anteil": 0.1264,
+        "auspraegung": "UK/Irland",
+        "merkmal": "Arbeitsregion",
+        "n": 143
+      },
+      {
+        "anteil": 0.1132,
+        "auspraegung": "Westeuropa",
+        "merkmal": "Arbeitsregion",
+        "n": 128
+      },
+      {
+        "anteil": 0.0354,
+        "auspraegung": "Sonstige",
+        "merkmal": "Arbeitsregion",
+        "n": 40
+      },
+      {
+        "anteil": 0.0283,
+        "auspraegung": "Ozeanien",
+        "merkmal": "Arbeitsregion",
+        "n": 32
+      },
+      {
+        "anteil": 0.0221,
+        "auspraegung": "Osteuropa",
+        "merkmal": "Arbeitsregion",
+        "n": 25
+      },
+      {
+        "anteil": 0.2573,
+        "auspraegung": "26-100",
+        "merkmal": "Unternehmensgröße (Beschäftigte)",
+        "n": 291
+      },
+      {
+        "anteil": 0.2219,
+        "auspraegung": "mehr als 1000",
+        "merkmal": "Unternehmensgröße (Beschäftigte)",
+        "n": 251
+      },
+      {
+        "anteil": 0.2166,
+        "auspraegung": "100-500",
+        "merkmal": "Unternehmensgröße (Beschäftigte)",
+        "n": 245
+      },
+      {
+        "anteil": 0.1821,
+        "auspraegung": "6-25",
+        "merkmal": "Unternehmensgröße (Beschäftigte)",
+        "n": 206
+      },
+      {
+        "anteil": 0.0698,
+        "auspraegung": "500-1000",
+        "merkmal": "Unternehmensgröße (Beschäftigte)",
+        "n": 79
+      },
+      {
+        "anteil": 0.0522,
+        "auspraegung": "1-5",
+        "merkmal": "Unternehmensgröße (Beschäftigte)",
+        "n": 59
+      },
+      {
+        "anteil": 0.5332,
+        "auspraegung": "manchmal",
+        "merkmal": "Remote-Arbeit",
+        "n": 603
+      },
+      {
+        "anteil": 0.275,
+        "auspraegung": "nie",
+        "merkmal": "Remote-Arbeit",
+        "n": 311
+      },
+      {
+        "anteil": 0.1919,
+        "auspraegung": "immer",
+        "merkmal": "Remote-Arbeit",
+        "n": 217
+      },
+      {
+        "anteil": 0.7807,
+        "auspraegung": "ja",
+        "merkmal": "Tech-Unternehmen",
+        "n": 883
+      },
+      {
+        "anteil": 0.2193,
+        "auspraegung": "nein",
+        "merkmal": "Tech-Unternehmen",
+        "n": 248
+      },
+      {
+        "anteil": 0.3935,
+        "auspraegung": "ja",
+        "merkmal": "Aktuell psych. Erkrankung",
+        "n": 445
+      },
+      {
+        "anteil": 0.3846,
+        "auspraegung": "nein",
+        "merkmal": "Aktuell psych. Erkrankung",
+        "n": 435
+      },
+      {
+        "anteil": 0.2219,
+        "auspraegung": "vielleicht",
+        "merkmal": "Aktuell psych. Erkrankung",
+        "n": 251
+      },
+      {
+        "anteil": 0.504,
+        "auspraegung": "nein",
+        "merkmal": "Ärztliche Diagnose",
+        "n": 570
+      },
+      {
+        "anteil": 0.496,
+        "auspraegung": "ja",
+        "merkmal": "Ärztliche Diagnose",
+        "n": 561
+      },
+      {
+        "anteil": 0.5738,
+        "auspraegung": "ja",
+        "merkmal": "Je in Behandlung",
+        "n": 649
+      },
+      {
+        "anteil": 0.4262,
+        "auspraegung": "nein",
+        "merkmal": "Je in Behandlung",
+        "n": 482
+      }
+    ]
+  },
+  "features": {
+    "anteil_ungesichert_mindestens_ein_item": 0.881521,
+    "anteil_weiss_nicht_je_item": {
+      "anonymity_protected": 0.6508,
+      "care_options_known": 0.3086,
+      "leave_ease": 0.1317,
+      "mh_benefits": 0.2794,
+      "mh_parity": 0.4306,
+      "mh_resources": 0.2812,
+      "wellness_discussed": 0.0902
+    },
+    "fehlend_gesamt_nach_imputation": 0,
+    "fehlend_je_item": {
+      "care_options_known": 133,
+      "unsupportive_response": 51
+    },
+    "index_mittelwerte": {
+      "openness_index": 0.495579,
+      "stigma_index": 0.39076,
+      "support_index": 0.464368,
+      "uncertainty_index": 0.310345
+    },
+    "n_kandidaten": 16
+  },
+  "filter": {
+    "anteil_usa_arbeit_analyse": 0.62069,
+    "n_analyse": 1131,
+    "n_nach_selbststaendige": 1146,
+    "n_ohne_tech_bezug_ausgeschlossen": 15,
+    "n_roh": 1433,
+    "n_selbststaendige_ausgeschlossen": 287,
+    "n_tech_rolle_in_nicht_tech": 248,
+    "n_tech_unternehmen": 883
+  },
+  "iteration1": {
+    "bestes_k_silhouette": 2,
+    "clustergroessen_k_final": [
+      248,
+      369,
+      386,
+      128
+    ],
+    "davies_bouldin_je_k": {
+      "10": 3.91483,
+      "2": 1.85761,
+      "3": 3.34424,
+      "4": 3.58255,
+      "5": 3.9169,
+      "6": 4.12203,
+      "7": 3.93493,
+      "8": 3.89019,
+      "9": 3.80302
+    },
+    "n_merkmale_nach_varianz": 169,
+    "n_merkmale_onehot": 180,
+    "silhouette_je_k": {
+      "10": 0.0310416,
+      "2": 0.153103,
+      "3": 0.0744103,
+      "4": 0.0695081,
+      "5": 0.0574841,
+      "6": 0.053371,
+      "7": 0.0530672,
+      "8": 0.0476879,
+      "9": 0.0499699
+    },
+    "silhouette_max": 0.153103,
+    "trennende_merkmale_k_final": {
+      "has_prev_employer=0": 3.157,
+      "prev_anonymity=NA": 3.157,
+      "prev_benefits=NA": 3.157,
+      "prev_care_options_known=NA": 3.157,
+      "prev_comfort_supervisor=NA": 3.157,
+      "prev_mh_neg_consequence=NA": 3.157,
+      "prev_resources=NA": 3.157,
+      "prev_wellness_discussed=NA": 3.157
+    }
+  },
+  "iteration2": {
+    "artefakt_cluster": {
+      "kmeans": {
+        "anteil_beobachtete_folgen_im_kleinsten": 1.0,
+        "anteil_erfasst_von_allen_beobachtenden": 0.860215,
+        "n_kleinstes_cluster": 80
+      },
+      "ward": {
+        "anteil_beobachtete_folgen_im_kleinsten": 1.0,
+        "anteil_erfasst_von_allen_beobachtenden": 0.774194,
+        "n_kleinstes_cluster": 72
+      }
+    },
+    "clustergroessen_kmeans_k_final": [
+      363,
+      430,
+      258,
+      80
+    ],
+    "min_anteil_kmeans_je_k": {
+      "10": 0.0221043,
+      "2": 0.484527,
+      "3": 0.23519,
+      "4": 0.0707339,
+      "5": 0.071618,
+      "6": 0.071618,
+      "7": 0.0707339,
+      "8": 0.071618,
+      "9": 0.0707339
+    },
+    "n_beobachtete_neg_folgen": 93,
+    "pca_evr_hk1": 0.272995,
+    "pca_n_komponenten": 10,
+    "silhouette_kmeans_je_k": {
+      "10": 0.132082,
+      "2": 0.199147,
+      "3": 0.149218,
+      "4": 0.16063,
+      "5": 0.151871,
+      "6": 0.134261,
+      "7": 0.131135,
+      "8": 0.126085,
+      "9": 0.125029
+    }
+  },
+  "iteration3": {
+    "final": {
+      "bic": null,
+      "calinski_harabasz": 238.015,
+      "davies_bouldin": 1.92652,
+      "k": 4,
+      "min_share": 0.206012,
+      "silhouette": 0.158398,
+      "silhouette_ref": 0.126934,
+      "verfahren": "kmeans",
+      "wss": 1047.74
+    },
+    "gmm_bic_bestes_k_je_typ": {
+      "diag": 10,
+      "full": 11,
+      "tied": 18
+    },
+    "gmm_bic_optimum": {
+      "bic": 458.464,
+      "k": 18,
+      "kleinste_komponente_n": 3,
+      "kovarianz": "tied"
+    },
+    "gmm_bic_suchbereich": [
+      2,
+      20
+    ],
+    "gmm_bic_verlauf": {
+      "diag": {
+        "bestes_k": 10,
+        "bic_min": 7926.1,
+        "minimum_am_rand": false,
+        "schritte_gegen_trend": 1
+      },
+      "full": {
+        "bestes_k": 11,
+        "bic_min": 1669.28,
+        "minimum_am_rand": false,
+        "schritte_gegen_trend": 6
+      },
+      "tied": {
+        "bestes_k": 18,
+        "bic_min": 458.464,
+        "minimum_am_rand": false,
+        "schritte_gegen_trend": 7
+      }
+    },
+    "gmm_kovarianz_vergleich": "full",
+    "kmeans_bestes_k_silhouette": 2,
+    "kmeans_silhouette_max": 0.208908,
+    "scan": [
+      {
+        "bic": null,
+        "calinski_harabasz": 353.498,
+        "davies_bouldin": 1.7473,
+        "k": 2,
+        "min_share": 0.4996,
+        "silhouette": 0.2089,
+        "silhouette_ref": 0.1763,
+        "verfahren": "kmeans",
+        "wss": 1303.45
+      },
+      {
+        "bic": 5587.57,
+        "calinski_harabasz": 203.327,
+        "davies_bouldin": 2.0705,
+        "k": 2,
+        "min_share": 0.2874,
+        "silhouette": 0.1706,
+        "silhouette_ref": 0.1433,
+        "verfahren": "gmm_full",
+        "wss": null
+      },
+      {
+        "bic": 8461.69,
+        "calinski_harabasz": 330.299,
+        "davies_bouldin": 1.7861,
+        "k": 2,
+        "min_share": 0.4385,
+        "silhouette": 0.1995,
+        "silhouette_ref": 0.1693,
+        "verfahren": "gmm_diag",
+        "wss": null
+      },
+      {
+        "bic": 8644.61,
+        "calinski_harabasz": 310.256,
+        "davies_bouldin": 1.861,
+        "k": 2,
+        "min_share": 0.4863,
+        "silhouette": 0.1906,
+        "silhouette_ref": 0.161,
+        "verfahren": "gmm_tied",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 295.352,
+        "davies_bouldin": 1.8868,
+        "k": 2,
+        "min_share": 0.4421,
+        "silhouette": 0.1817,
+        "silhouette_ref": 0.1539,
+        "verfahren": "ward",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 281.321,
+        "davies_bouldin": 1.7795,
+        "k": 3,
+        "min_share": 0.2272,
+        "silhouette": 0.1767,
+        "silhouette_ref": 0.143,
+        "verfahren": "kmeans",
+        "wss": 1141.96
+      },
+      {
+        "bic": 5293.06,
+        "calinski_harabasz": 142.846,
+        "davies_bouldin": 2.7126,
+        "k": 3,
+        "min_share": 0.1883,
+        "silhouette": 0.1313,
+        "silhouette_ref": 0.1115,
+        "verfahren": "gmm_full",
+        "wss": null
+      },
+      {
+        "bic": 8279.03,
+        "calinski_harabasz": 203.502,
+        "davies_bouldin": 2.3332,
+        "k": 3,
+        "min_share": 0.2263,
+        "silhouette": 0.1267,
+        "silhouette_ref": 0.1059,
+        "verfahren": "gmm_diag",
+        "wss": null
+      },
+      {
+        "bic": 6033.21,
+        "calinski_harabasz": 112.411,
+        "davies_bouldin": 3.2478,
+        "k": 3,
+        "min_share": 0.2573,
+        "silhouette": 0.0578,
+        "silhouette_ref": 0.0498,
+        "verfahren": "gmm_tied",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 236.991,
+        "davies_bouldin": 1.9187,
+        "k": 3,
+        "min_share": 0.206,
+        "silhouette": 0.1606,
+        "silhouette_ref": 0.1303,
+        "verfahren": "ward",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 238.015,
+        "davies_bouldin": 1.9265,
+        "k": 4,
+        "min_share": 0.206,
+        "silhouette": 0.1584,
+        "silhouette_ref": 0.1269,
+        "verfahren": "kmeans",
+        "wss": 1047.74
+      },
+      {
+        "bic": 3945.5,
+        "calinski_harabasz": 125.381,
+        "davies_bouldin": 3.1154,
+        "k": 4,
+        "min_share": 0.0902,
+        "silhouette": 0.0877,
+        "silhouette_ref": 0.0697,
+        "verfahren": "gmm_full",
+        "wss": null
+      },
+      {
+        "bic": 8165.37,
+        "calinski_harabasz": 170.566,
+        "davies_bouldin": 2.1451,
+        "k": 4,
+        "min_share": 0.0725,
+        "silhouette": 0.091,
+        "silhouette_ref": 0.0705,
+        "verfahren": "gmm_diag",
+        "wss": null
+      },
+      {
+        "bic": 4305.45,
+        "calinski_harabasz": 118.684,
+        "davies_bouldin": 3.1563,
+        "k": 4,
+        "min_share": 0.0902,
+        "silhouette": 0.0631,
+        "silhouette_ref": 0.0504,
+        "verfahren": "gmm_tied",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 196.46,
+        "davies_bouldin": 2.1367,
+        "k": 4,
+        "min_share": 0.1821,
+        "silhouette": 0.1266,
+        "silhouette_ref": 0.102,
+        "verfahren": "ward",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 207.67,
+        "davies_bouldin": 2.002,
+        "k": 5,
+        "min_share": 0.1538,
+        "silhouette": 0.1446,
+        "silhouette_ref": 0.1122,
+        "verfahren": "kmeans",
+        "wss": 984.95
+      },
+      {
+        "bic": 4044.69,
+        "calinski_harabasz": 102.062,
+        "davies_bouldin": 2.7711,
+        "k": 5,
+        "min_share": 0.061,
+        "silhouette": 0.0743,
+        "silhouette_ref": 0.0586,
+        "verfahren": "gmm_full",
+        "wss": null
+      },
+      {
+        "bic": 8113.57,
+        "calinski_harabasz": 165.141,
+        "davies_bouldin": 2.0041,
+        "k": 5,
+        "min_share": 0.0858,
+        "silhouette": 0.1046,
+        "silhouette_ref": 0.0824,
+        "verfahren": "gmm_diag",
+        "wss": null
+      },
+      {
+        "bic": 4103.43,
+        "calinski_harabasz": 130.293,
+        "davies_bouldin": 2.7991,
+        "k": 5,
+        "min_share": 0.0628,
+        "silhouette": 0.0898,
+        "silhouette_ref": 0.0807,
+        "verfahren": "gmm_tied",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 171.073,
+        "davies_bouldin": 2.0179,
+        "k": 5,
+        "min_share": 0.0805,
+        "silhouette": 0.1052,
+        "silhouette_ref": 0.08,
+        "verfahren": "ward",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 190.578,
+        "davies_bouldin": 1.8847,
+        "k": 6,
+        "min_share": 0.1079,
+        "silhouette": 0.1487,
+        "silhouette_ref": 0.1136,
+        "verfahren": "kmeans",
+        "wss": 926.67
+      },
+      {
+        "bic": 3007.06,
+        "calinski_harabasz": 101.496,
+        "davies_bouldin": 2.426,
+        "k": 6,
+        "min_share": 0.0389,
+        "silhouette": 0.0753,
+        "silhouette_ref": 0.0597,
+        "verfahren": "gmm_full",
+        "wss": null
+      },
+      {
+        "bic": 8081.92,
+        "calinski_harabasz": 153.313,
+        "davies_bouldin": 2.0268,
+        "k": 6,
+        "min_share": 0.1061,
+        "silhouette": 0.1022,
+        "silhouette_ref": 0.0785,
+        "verfahren": "gmm_diag",
+        "wss": null
+      },
+      {
+        "bic": 3878.59,
+        "calinski_harabasz": 107.966,
+        "davies_bouldin": 2.662,
+        "k": 6,
+        "min_share": 0.015,
+        "silhouette": 0.0895,
+        "silhouette_ref": 0.0809,
+        "verfahren": "gmm_tied",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 155.782,
+        "davies_bouldin": 2.0427,
+        "k": 6,
+        "min_share": 0.0805,
+        "silhouette": 0.1125,
+        "silhouette_ref": 0.0868,
+        "verfahren": "ward",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 174.769,
+        "davies_bouldin": 1.8145,
+        "k": 7,
+        "min_share": 0.0928,
+        "silhouette": 0.1474,
+        "silhouette_ref": 0.1121,
+        "verfahren": "kmeans",
+        "wss": 885.48
+      },
+      {
+        "bic": 2526.5,
+        "calinski_harabasz": 99.0375,
+        "davies_bouldin": 2.3617,
+        "k": 7,
+        "min_share": 0.0203,
+        "silhouette": 0.0432,
+        "silhouette_ref": 0.0299,
+        "verfahren": "gmm_full",
+        "wss": null
+      },
+      {
+        "bic": 8037.28,
+        "calinski_harabasz": 140.445,
+        "davies_bouldin": 1.9108,
+        "k": 7,
+        "min_share": 0.0628,
+        "silhouette": 0.0995,
+        "silhouette_ref": 0.076,
+        "verfahren": "gmm_diag",
+        "wss": null
+      },
+      {
+        "bic": 3183.44,
+        "calinski_harabasz": 84.5703,
+        "davies_bouldin": 3.146,
+        "k": 7,
+        "min_share": 0.038,
+        "silhouette": 0.0347,
+        "silhouette_ref": 0.0255,
+        "verfahren": "gmm_tied",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 147.157,
+        "davies_bouldin": 2.0168,
+        "k": 7,
+        "min_share": 0.0805,
+        "silhouette": 0.1092,
+        "silhouette_ref": 0.0816,
+        "verfahren": "ward",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 163.42,
+        "davies_bouldin": 1.8172,
+        "k": 8,
+        "min_share": 0.061,
+        "silhouette": 0.1447,
+        "silhouette_ref": 0.1118,
+        "verfahren": "kmeans",
+        "wss": 847.881
+      },
+      {
+        "bic": 2083.64,
+        "calinski_harabasz": 94.3181,
+        "davies_bouldin": 2.6169,
+        "k": 8,
+        "min_share": 0.0451,
+        "silhouette": 0.0679,
+        "silhouette_ref": 0.0518,
+        "verfahren": "gmm_full",
+        "wss": null
+      },
+      {
+        "bic": 8015.95,
+        "calinski_harabasz": 124.0,
+        "davies_bouldin": 1.8559,
+        "k": 8,
+        "min_share": 0.0416,
+        "silhouette": 0.0791,
+        "silhouette_ref": 0.0562,
+        "verfahren": "gmm_diag",
+        "wss": null
+      },
+      {
+        "bic": 3857.66,
+        "calinski_harabasz": 92.6826,
+        "davies_bouldin": 2.4458,
+        "k": 8,
+        "min_share": 0.015,
+        "silhouette": 0.0632,
+        "silhouette_ref": 0.0534,
+        "verfahren": "gmm_tied",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 139.599,
+        "davies_bouldin": 1.9406,
+        "k": 8,
+        "min_share": 0.0557,
+        "silhouette": 0.1102,
+        "silhouette_ref": 0.085,
+        "verfahren": "ward",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 153.923,
+        "davies_bouldin": 1.7663,
+        "k": 9,
+        "min_share": 0.061,
+        "silhouette": 0.1431,
+        "silhouette_ref": 0.1091,
+        "verfahren": "kmeans",
+        "wss": 816.011
+      },
+      {
+        "bic": 2278.98,
+        "calinski_harabasz": 84.953,
+        "davies_bouldin": 2.408,
+        "k": 9,
+        "min_share": 0.0309,
+        "silhouette": 0.0331,
+        "silhouette_ref": 0.0258,
+        "verfahren": "gmm_full",
+        "wss": null
+      },
+      {
+        "bic": 7994.33,
+        "calinski_harabasz": 127.341,
+        "davies_bouldin": 1.8007,
+        "k": 9,
+        "min_share": 0.0442,
+        "silhouette": 0.092,
+        "silhouette_ref": 0.0688,
+        "verfahren": "gmm_diag",
+        "wss": null
+      },
+      {
+        "bic": 3889.07,
+        "calinski_harabasz": 94.2836,
+        "davies_bouldin": 2.4387,
+        "k": 9,
+        "min_share": 0.0239,
+        "silhouette": 0.0657,
+        "silhouette_ref": 0.0573,
+        "verfahren": "gmm_tied",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 132.429,
+        "davies_bouldin": 2.0566,
+        "k": 9,
+        "min_share": 0.0557,
+        "silhouette": 0.1038,
+        "silhouette_ref": 0.0791,
+        "verfahren": "ward",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 146.196,
+        "davies_bouldin": 1.7721,
+        "k": 10,
+        "min_share": 0.0548,
+        "silhouette": 0.1428,
+        "silhouette_ref": 0.108,
+        "verfahren": "kmeans",
+        "wss": 787.385
+      },
+      {
+        "bic": 1814.28,
+        "calinski_harabasz": 79.9609,
+        "davies_bouldin": 2.4579,
+        "k": 10,
+        "min_share": 0.0168,
+        "silhouette": 0.0307,
+        "silhouette_ref": 0.02,
+        "verfahren": "gmm_full",
+        "wss": null
+      },
+      {
+        "bic": 7926.1,
+        "calinski_harabasz": 115.543,
+        "davies_bouldin": 1.7612,
+        "k": 10,
+        "min_share": 0.0442,
+        "silhouette": 0.0888,
+        "silhouette_ref": 0.0661,
+        "verfahren": "gmm_diag",
+        "wss": null
+      },
+      {
+        "bic": 3665.89,
+        "calinski_harabasz": 78.8542,
+        "davies_bouldin": 2.5768,
+        "k": 10,
+        "min_share": 0.0239,
+        "silhouette": 0.054,
+        "silhouette_ref": 0.0467,
+        "verfahren": "gmm_tied",
+        "wss": null
+      },
+      {
+        "bic": null,
+        "calinski_harabasz": 126.462,
+        "davies_bouldin": 1.9721,
+        "k": 10,
+        "min_share": 0.0557,
+        "silhouette": 0.1039,
+        "silhouette_ref": 0.0789,
+        "verfahren": "ward",
+        "wss": null
+      }
+    ],
+    "ward_fusionshoehen": [
+      26.6424,
+      17.4068,
+      12.7533,
+      10.8854,
+      10.3197,
+      10.2736,
+      9.31406,
+      8.35075
+    ]
+  },
+  "laufzeit": {
+    "A_eda": 0.945466,
+    "B_aufbereitung": 1.62726,
+    "C_reduktion": 58.5334,
+    "D_iteration1_baseline": 1.87615,
+    "D_iteration2_zstandard": 2.16502,
+    "D_iteration3_final": 172.821,
+    "E_profile": 2.2474,
+    "F_ergaenzungen": 111.005,
+    "gesamt": 351.222
+  },
+  "profile": {
+    "alter_median_je_cluster": {
+      "1": 31.0,
+      "2": 31.0,
+      "3": 33.0,
+      "4": 34.0
+    },
+    "anteile": {
+      "1": 0.3095,
+      "2": 0.2449,
+      "3": 0.2396,
+      "4": 0.206
+    },
+    "groessen": {
+      "1": 350,
+      "2": 277,
+      "3": 271,
+      "4": 233
+    },
+    "mittelwerte": {
+      "1": {
+        "anonymity_protected": 0.5943,
+        "care_options_known": 0.4043,
+        "career_hurt": 0.4964,
+        "comfort_coworkers": 0.6529,
+        "comfort_supervisor": 0.8071,
+        "coworkers_view_negative": 0.6129,
+        "leave_ease": 0.7243,
+        "mh_benefits": 0.5071,
+        "mh_neg_consequence_employer": 0.8643,
+        "mh_parity": 0.6914,
+        "mh_resources": 0.2243,
+        "observed_neg_consequences": 0.9857,
+        "openness_index": 0.73,
+        "ph_neg_consequence_employer": 0.9586,
+        "stigma_index": 0.2554,
+        "support_index": 0.3646,
+        "uncertainty_index": 0.3453,
+        "unsupportive_response": 0.7636,
+        "wellness_discussed": 0.0929
+      },
+      "2": {
+        "anonymity_protected": 0.4422,
+        "care_options_known": 0.2996,
+        "career_hurt": 0.2987,
+        "comfort_coworkers": 0.1859,
+        "comfort_supervisor": 0.222,
+        "coworkers_view_negative": 0.3962,
+        "leave_ease": 0.3691,
+        "mh_benefits": 0.1949,
+        "mh_neg_consequence_employer": 0.3105,
+        "mh_parity": 0.3105,
+        "mh_resources": 0.1426,
+        "observed_neg_consequences": 0.8556,
+        "openness_index": 0.204,
+        "ph_neg_consequence_employer": 0.7076,
+        "stigma_index": 0.5226,
+        "support_index": 0.2318,
+        "uncertainty_index": 0.329,
+        "unsupportive_response": 0.5262,
+        "wellness_discussed": 0.0794
+      },
+      "3": {
+        "anonymity_protected": 0.6162,
+        "care_options_known": 0.5793,
+        "career_hurt": 0.309,
+        "comfort_coworkers": 0.2565,
+        "comfort_supervisor": 0.2823,
+        "coworkers_view_negative": 0.3976,
+        "leave_ease": 0.4041,
+        "mh_benefits": 0.928,
+        "mh_neg_consequence_employer": 0.3542,
+        "mh_parity": 0.2934,
+        "mh_resources": 0.4852,
+        "observed_neg_consequences": 0.8893,
+        "openness_index": 0.2694,
+        "ph_neg_consequence_employer": 0.7731,
+        "stigma_index": 0.5052,
+        "support_index": 0.5465,
+        "uncertainty_index": 0.3263,
+        "unsupportive_response": 0.524,
+        "wellness_discussed": 0.1236
+      },
+      "4": {
+        "anonymity_protected": 0.7833,
+        "care_options_known": 0.6845,
+        "career_hurt": 0.5097,
+        "comfort_coworkers": 0.6803,
+        "comfort_supervisor": 0.8262,
+        "coworkers_view_negative": 0.6084,
+        "leave_ease": 0.7446,
+        "mh_benefits": 0.8541,
+        "mh_neg_consequence_employer": 0.8262,
+        "mh_parity": 0.7811,
+        "mh_resources": 0.8562,
+        "observed_neg_consequences": 0.9227,
+        "openness_index": 0.7532,
+        "ph_neg_consequence_employer": 0.9442,
+        "stigma_index": 0.3043,
+        "support_index": 0.7953,
+        "uncertainty_index": 0.217,
+        "unsupportive_response": 0.6116,
+        "wellness_discussed": 0.7983
+      },
+      "gesamt": {
+        "anonymity_protected": 0.6012,
+        "care_options_known": 0.4783,
+        "career_hurt": 0.4058,
+        "comfort_coworkers": 0.4492,
+        "comfort_supervisor": 0.542,
+        "coworkers_view_negative": 0.5073,
+        "leave_ease": 0.5648,
+        "mh_benefits": 0.603,
+        "mh_neg_consequence_employer": 0.5986,
+        "mh_parity": 0.5212,
+        "mh_resources": 0.397,
+        "observed_neg_consequences": 0.9178,
+        "openness_index": 0.4956,
+        "ph_neg_consequence_employer": 0.8497,
+        "stigma_index": 0.3908,
+        "support_index": 0.4644,
+        "uncertainty_index": 0.3103,
+        "unsupportive_response": 0.6167,
+        "wellness_discussed": 0.2423
+      }
+    },
+    "profil_anteile": {
+      "1": {
+        "Aktuell psych. Erkrankung (ja)": 0.3286,
+        "Arbeitsort Nordamerika": 0.6,
+        "Diagnose ADHS": 0.1,
+        "Diagnose Angststörung": 0.2057,
+        "Diagnose affektive Störung": 0.2971,
+        "Früher psych. Erkrankung (ja)": 0.4257,
+        "Geschlecht weiblich": 0.1886,
+        "Immer remote": 0.2457,
+        "Je in Behandlung (ja)": 0.4686,
+        "Rolle Führung/Teamleitung": 0.22,
+        "Thema im Bewerbungsgespräch: nein": 0.4629,
+        "Unbehandelt oft beeinträchtigt": 0.2886,
+        "Unternehmen 26–100 Beschäftigte": 0.3057,
+        "Unternehmen > 1000 Beschäftigte": 0.0914,
+        "Ärztliche Diagnose (ja)": 0.4
+      },
+      "2": {
+        "Aktuell psych. Erkrankung (ja)": 0.3718,
+        "Arbeitsort Nordamerika": 0.509,
+        "Diagnose ADHS": 0.0542,
+        "Diagnose Angststörung": 0.2671,
+        "Diagnose affektive Störung": 0.3538,
+        "Früher psych. Erkrankung (ja)": 0.4946,
+        "Geschlecht weiblich": 0.2022,
+        "Immer remote": 0.13,
+        "Je in Behandlung (ja)": 0.5704,
+        "Rolle Führung/Teamleitung": 0.1408,
+        "Thema im Bewerbungsgespräch: nein": 0.7581,
+        "Unbehandelt oft beeinträchtigt": 0.3646,
+        "Unternehmen 26–100 Beschäftigte": 0.2419,
+        "Unternehmen > 1000 Beschäftigte": 0.1805,
+        "Ärztliche Diagnose (ja)": 0.4874
+      },
+      "3": {
+        "Aktuell psych. Erkrankung (ja)": 0.4834,
+        "Arbeitsort Nordamerika": 0.8819,
+        "Diagnose ADHS": 0.1144,
+        "Diagnose Angststörung": 0.3321,
+        "Diagnose affektive Störung": 0.4391,
+        "Früher psych. Erkrankung (ja)": 0.6125,
+        "Geschlecht weiblich": 0.31,
+        "Immer remote": 0.1808,
+        "Je in Behandlung (ja)": 0.6568,
+        "Rolle Führung/Teamleitung": 0.1882,
+        "Thema im Bewerbungsgespräch: nein": 0.797,
+        "Unbehandelt oft beeinträchtigt": 0.4686,
+        "Unternehmen 26–100 Beschäftigte": 0.2435,
+        "Unternehmen > 1000 Beschäftigte": 0.3358,
+        "Ärztliche Diagnose (ja)": 0.6015
+      },
+      "4": {
+        "Aktuell psych. Erkrankung (ja)": 0.412,
+        "Arbeitsort Nordamerika": 0.7425,
+        "Diagnose ADHS": 0.0944,
+        "Diagnose Angststörung": 0.2361,
+        "Diagnose affektive Störung": 0.3991,
+        "Früher psych. Erkrankung (ja)": 0.5408,
+        "Geschlecht weiblich": 0.2446,
+        "Immer remote": 0.1974,
+        "Je in Behandlung (ja)": 0.6395,
+        "Rolle Führung/Teamleitung": 0.2532,
+        "Thema im Bewerbungsgespräch: nein": 0.5236,
+        "Unbehandelt oft beeinträchtigt": 0.3691,
+        "Unternehmen 26–100 Beschäftigte": 0.2189,
+        "Unternehmen > 1000 Beschäftigte": 0.3348,
+        "Ärztliche Diagnose (ja)": 0.5279
+      }
+    },
+    "profil_anteile_gesamt": {
+      "Aktuell psych. Erkrankung (ja)": 0.393457,
+      "Arbeitsort Nordamerika": 0.674624,
+      "Diagnose ADHS": 0.0910698,
+      "Diagnose Angststörung": 0.257294,
+      "Diagnose affektive Störung": 0.366048,
+      "Früher psych. Erkrankung (ja)": 0.511052,
+      "Geschlecht weiblich": 0.232538,
+      "Immer remote": 0.191866,
+      "Je in Behandlung (ja)": 0.573828,
+      "Rolle Führung/Teamleitung": 0.199823,
+      "Thema im Bewerbungsgespräch: nein": 0.627763,
+      "Unbehandelt oft beeinträchtigt": 0.366932,
+      "Unternehmen 26–100 Beschäftigte": 0.257294,
+      "Unternehmen > 1000 Beschäftigte": 0.221927,
+      "Ärztliche Diagnose (ja)": 0.496021
+    },
+    "profil_zellen_unterdrueckt": 0,
+    "signifikanz": [
+      {
+        "ausgeschlossene_kategorien": "",
+        "df": 6,
+        "df_stern": 2.0,
+        "effekt": 0.120734,
+        "effektmass": "Cramérs V",
+        "einordnung": "klein",
+        "min_erwartet": 51.7091,
+        "p": 1.06151e-05,
+        "p_bonferroni": 0.000180456,
+        "rolle": "unabhängige Profilvariable",
+        "statistik": 32.9724,
+        "test": "Chi²",
+        "variable": "mh_current"
+      },
+      {
+        "ausgeschlossene_kategorien": "",
+        "df": 6,
+        "df_stern": 2.0,
+        "effekt": 0.113226,
+        "effektmass": "Cramérs V",
+        "einordnung": "klein",
+        "min_erwartet": 37.4943,
+        "p": 6.0865e-05,
+        "p_bonferroni": 0.00103471,
+        "rolle": "unabhängige Profilvariable",
+        "statistik": 28.9989,
+        "test": "Chi²",
+        "variable": "mh_past"
+      },
+      {
+        "ausgeschlossene_kategorien": "",
+        "df": 3,
+        "df_stern": 1.0,
+        "effekt": 0.151604,
+        "effektmass": "Cramérs V",
+        "einordnung": "klein",
+        "min_erwartet": 115.573,
+        "p": 9.56224e-06,
+        "p_bonferroni": 0.000162558,
+        "rolle": "unabhängige Profilvariable",
+        "statistik": 25.9946,
+        "test": "Chi²",
+        "variable": "diagnosed_professional"
+      },
+      {
+        "ausgeschlossene_kategorien": "",
+        "df": 3,
+        "df_stern": 1.0,
+        "effekt": 0.156245,
+        "effektmass": "Cramérs V",
+        "einordnung": "klein",
+        "min_erwartet": 99.298,
+        "p": 4.38379e-06,
+        "p_bonferroni": 7.45244e-05,
+        "rolle": "unabhängige Profilvariable",
+        "statistik": 27.6107,
+        "test": "Chi²",
+        "variable": "treatment_sought"
+      },
+      {
+        "ausgeschlossene_kategorien": "Never",
+        "df": 9,
+        "df_stern": 3.0,
+        "effekt": 0.0968622,
+        "effektmass": "Cramérs V",
+        "einordnung": "klein",
+        "min_erwartet": 8.82248,
+        "p": 0.000237868,
+        "p_bonferroni": 0.00404375,
+        "rolle": "unabhängige Profilvariable",
+        "statistik": 31.5526,
+        "test": "Chi²",
+        "variable": "interference_untreated"
+      },
+      {
+        "ausgeschlossene_kategorien": "",
+        "df": 6,
+        "df_stern": 2.0,
+        "effekt": 0.102723,
+        "effektmass": "Cramérs V",
+        "einordnung": "klein",
+        "min_erwartet": 43.2626,
+        "p": 0.000552154,
+        "p_bonferroni": 0.00938661,
+        "rolle": "unabhängige Profilvariable",
+        "statistik": 23.8685,
+        "test": "Chi²",
+        "variable": "family_history"
+      },
+      {
+        "ausgeschlossene_kategorien": "",
+        "df": 15,
+        "df_stern": 3.0,
+        "effekt": 0.199445,
+        "effektmass": "Cramérs V",
+        "einordnung": "mittel",
+        "min_erwartet": 12.1547,
+        "p": 2.25392e-21,
+        "p_bonferroni": 3.83166e-20,
+        "rolle": "unabhängige Profilvariable",
+        "statistik": 134.968,
+        "test": "Chi²",
+        "variable": "company_size"
+      },
+      {
+        "ausgeschlossene_kategorien": "",
+        "df": 6,
+        "df_stern": 2.0,
+        "effekt": 0.139967,
+        "effektmass": "Cramérs V",
+        "einordnung": "klein",
+        "min_erwartet": 44.7047,
+        "p": 6.40399e-08,
+        "p_bonferroni": 1.08868e-06,
+        "rolle": "unabhängige Profilvariable",
+        "statistik": 44.3142,
+        "test": "Chi²",
+        "variable": "remote"
+      },
+      {
+        "ausgeschlossene_kategorien": "",
+        "df": 15,
+        "df_stern": 3.0,
+        "effekt": 0.19212,
+        "effektmass": "Cramérs V",
+        "einordnung": "mittel",
+        "min_erwartet": 5.15031,
+        "p": 1.8132e-19,
+        "p_bonferroni": 3.08244e-18,
+        "rolle": "unabhängige Profilvariable",
+        "statistik": 125.236,
+        "test": "Chi²",
+        "variable": "region_work"
+      },
+      {
+        "ausgeschlossene_kategorien": "divers/andere; keine Angabe",
+        "df": 3,
+        "df_stern": 1.0,
+        "effekt": 0.117262,
+        "effektmass": "Cramérs V",
+        "einordnung": "klein",
+        "min_erwartet": 54.077,
+        "p": 0.00166878,
+        "p_bonferroni": 0.0283693,
+        "rolle": "unabhängige Profilvariable",
+        "statistik": 15.1804,
+        "test": "Chi²",
+        "variable": "gender_clean"
+      },
+      {
+        "ausgeschlossene_kategorien": "",
+        "df": 6,
+        "df_stern": 2.0,
+        "effekt": 0.223715,
+        "effektmass": "Cramérs V",
+        "einordnung": "mittel",
+        "min_erwartet": 18.5411,
+        "p": 4.33364e-22,
+        "p_bonferroni": 7.3672e-21,
+        "rolle": "konstruktnah",
+        "statistik": 113.21,
+        "test": "Chi²",
+        "variable": "interview_mh"
+      },
+      {
+        "ausgeschlossene_kategorien": "",
+        "df": 15,
+        "df_stern": 3.0,
+        "effekt": 0.151579,
+        "effektmass": "Cramérs V",
+        "einordnung": "klein",
+        "min_erwartet": 12.9788,
+        "p": 1.64664e-10,
+        "p_bonferroni": 2.79928e-09,
+        "rolle": "konstruktnah",
+        "statistik": 77.9582,
+        "test": "Chi²",
+        "variable": "openness_friends_family"
+      },
+      {
+        "ausgeschlossene_kategorien": null,
+        "df": 3,
+        "df_stern": null,
+        "effekt": 0.0152271,
+        "effektmass": "Epsilon²",
+        "einordnung": null,
+        "min_erwartet": null,
+        "p": 0.000640835,
+        "p_bonferroni": 0.0108942,
+        "rolle": "unabhängige Profilvariable",
+        "statistik": 17.2067,
+        "test": "Kruskal-Wallis",
+        "variable": "age_clean"
+      },
+      {
+        "ausgeschlossene_kategorien": null,
+        "df": 3,
+        "df_stern": null,
+        "effekt": 0.665138,
+        "effektmass": "Epsilon²",
+        "einordnung": null,
+        "min_erwartet": null,
+        "p": 1.35305e-162,
+        "p_bonferroni": 2.30018e-161,
+        "rolle": "zirkulär – nur deskriptiv",
+        "statistik": 751.606,
+        "test": "Kruskal-Wallis",
+        "variable": "support_index"
+      },
+      {
+        "ausgeschlossene_kategorien": null,
+        "df": 3,
+        "df_stern": null,
+        "effekt": 0.513916,
+        "effektmass": "Epsilon²",
+        "einordnung": null,
+        "min_erwartet": null,
+        "p": 1.52034e-125,
+        "p_bonferroni": 2.58458e-124,
+        "rolle": "zirkulär – nur deskriptiv",
+        "statistik": 580.725,
+        "test": "Kruskal-Wallis",
+        "variable": "openness_index"
+      },
+      {
+        "ausgeschlossene_kategorien": null,
+        "df": 3,
+        "df_stern": null,
+        "effekt": 0.425467,
+        "effektmass": "Epsilon²",
+        "einordnung": null,
+        "min_erwartet": null,
+        "p": 6.98685e-104,
+        "p_bonferroni": 1.18776e-102,
+        "rolle": "zirkulär – nur deskriptiv",
+        "statistik": 480.778,
+        "test": "Kruskal-Wallis",
+        "variable": "stigma_index"
+      },
+      {
+        "ausgeschlossene_kategorien": null,
+        "df": 3,
+        "df_stern": null,
+        "effekt": 0.0564803,
+        "effektmass": "Epsilon²",
+        "einordnung": null,
+        "min_erwartet": null,
+        "p": 8.95647e-14,
+        "p_bonferroni": 1.5226e-12,
+        "rolle": "zirkulär – nur deskriptiv",
+        "statistik": 63.8228,
+        "test": "Kruskal-Wallis",
+        "variable": "uncertainty_index"
+      }
+    ],
+    "textmining": {
+      "n_terme_vokabular": 283,
+      "n_texte": 824,
+      "n_texte_je_cluster": {
+        "1": 242,
+        "2": 198,
+        "3": 209,
+        "4": 175
+      },
+      "n_texte_ohne_terme": 59
+    },
+    "tfidf_top_terme": {
+      "1": [
+        "depends",
+        "relevant",
+        "work",
+        "answer",
+        "potential",
+        "know",
+        "affect",
+        "open"
+      ],
+      "2": [
+        "fear",
+        "job",
+        "hire",
+        "hired",
+        "make",
+        "interview process",
+        "stigma",
+        "reason"
+      ],
+      "3": [
+        "like",
+        "discrimination",
+        "hire",
+        "fear",
+        "afraid",
+        "bias",
+        "stigma",
+        "getting"
+      ],
+      "4": [
+        "employer",
+        "conversation",
+        "physical",
+        "depend",
+        "issue",
+        "needs",
+        "thing",
+        "ability"
+      ]
+    },
+    "top_merkmale": {
+      "1": [
+        "mh_neg_consequence_employer",
+        "comfort_supervisor",
+        "comfort_coworkers",
+        "mh_resources",
+        "mh_parity",
+        "leave_ease",
+        "wellness_discussed",
+        "unsupportive_response"
+      ],
+      "2": [
+        "mh_benefits",
+        "comfort_supervisor",
+        "mh_neg_consequence_employer",
+        "comfort_coworkers",
+        "mh_resources",
+        "mh_parity",
+        "leave_ease",
+        "care_options_known"
+      ],
+      "3": [
+        "mh_benefits",
+        "comfort_supervisor",
+        "mh_neg_consequence_employer",
+        "mh_parity",
+        "comfort_coworkers",
+        "leave_ease",
+        "wellness_discussed",
+        "coworkers_view_negative"
+      ],
+      "4": [
+        "wellness_discussed",
+        "mh_resources",
+        "comfort_supervisor",
+        "mh_parity",
+        "mh_benefits",
+        "comfort_coworkers",
+        "mh_neg_consequence_employer",
+        "care_options_known"
+      ]
+    }
+  },
+  "reduktion": {
+    "gesamtdaten_ari_final_vs_baseline_k4": 0.096182,
+    "gesamtdaten_n_merkmale": 169,
+    "gesamtdaten_pca_trustworthiness": 0.759892,
+    "gower_mittel": 0.336196,
+    "laufzeit_sek": {
+      "LLE": 1.30502,
+      "MDS": 5.91699,
+      "PCA": 0.00116912
+    },
+    "lle_beste_nachbarn": 5,
+    "lle_rekonstruktionsfehler": {
+      "10": 1.13719e-07,
+      "20": 1.72315e-07,
+      "40": 1.76961e-06,
+      "5": 7.29531e-08
+    },
+    "mds_stress": {
+      "1": 0.516733,
+      "2": 0.254279,
+      "3": 0.172769,
+      "4": 0.135345,
+      "5": 0.1132
+    },
+    "pca_eigenwerte": [
+      0.51393,
+      0.27268,
+      0.16053,
+      0.14306,
+      0.10852,
+      0.0974,
+      0.07888,
+      0.07254,
+      0.06713,
+      0.06234,
+      0.05699,
+      0.05105,
+      0.04188,
+      0.03487,
+      0.03187,
+      0.02105
+    ],
+    "pca_evr": [
+      0.283201,
+      0.150258,
+      0.088459,
+      0.0788346,
+      0.0597997,
+      0.0536701,
+      0.0434642,
+      0.0399749,
+      0.036989,
+      0.0343525,
+      0.0314063,
+      0.028133,
+      0.0230801,
+      0.0192155,
+      0.0175633,
+      0.0115995
+    ],
+    "pca_kum_bei_n": 0.83465,
+    "pca_kumuliert": [
+      0.283201,
+      0.433458,
+      0.521917,
+      0.600752,
+      0.660552,
+      0.714222,
+      0.757686,
+      0.797661,
+      0.83465,
+      0.869002,
+      0.900409,
+      0.928542,
+      0.951622,
+      0.970837,
+      0.988401,
+      1.0
+    ],
+    "pca_n_komponenten": 9,
+    "pca_schwelle": 0.8,
+    "pca_top_ladungen": {
+      "PC1": [
+        "comfort_supervisor",
+        "mh_neg_consequence_employer",
+        "comfort_coworkers",
+        "mh_parity"
+      ],
+      "PC2": [
+        "mh_resources",
+        "mh_benefits",
+        "care_options_known",
+        "wellness_discussed"
+      ],
+      "PC3": [
+        "wellness_discussed",
+        "care_options_known",
+        "mh_resources",
+        "mh_benefits"
+      ],
+      "PC4": [
+        "unsupportive_response",
+        "mh_benefits",
+        "comfort_coworkers",
+        "wellness_discussed"
+      ]
+    },
+    "pca_zstandard_evr": [
+      0.272995,
+      0.124741,
+      0.0788498,
+      0.0664905,
+      0.0581238,
+      0.0545322,
+      0.048462,
+      0.0473518,
+      0.0437582,
+      0.039576,
+      0.0335144,
+      0.0333076,
+      0.0287653,
+      0.0268992,
+      0.0224718,
+      0.0201612
+    ],
+    "pca_zstandard_n_komponenten": 10,
+    "trustworthiness": {
+      "LLE_k10": 0.770731,
+      "LLE_k5": 0.788396,
+      "LLE_nn10_k10": 0.660904,
+      "LLE_nn20_k10": 0.6651,
+      "LLE_nn40_k10": 0.671902,
+      "LLE_nn5_k10": 0.770731,
+      "MDS_gower_k10": 0.853774,
+      "MDS_gower_k5": 0.857793,
+      "MDS_k10": 0.850675,
+      "MDS_k5": 0.854182,
+      "PCA_k10": 0.829416,
+      "PCA_k5": 0.828094
+    }
+  },
+  "stabilitaet": {
+    "ari_matrix": {
+      "Baseline": {
+        "Baseline": 1.0,
+        "GMM (full)": 0.0181,
+        "Index-Variante": 0.1048,
+        "Iteration 2 (z)": 0.115,
+        "Ward": 0.0851,
+        "k-Means": 0.0962,
+        "k-Means ohne PCA": 0.0948
+      },
+      "GMM (full)": {
+        "Baseline": 0.0181,
+        "GMM (full)": 1.0,
+        "Index-Variante": 0.0998,
+        "Iteration 2 (z)": 0.1283,
+        "Ward": 0.2769,
+        "k-Means": 0.3114,
+        "k-Means ohne PCA": 0.2974
+      },
+      "Index-Variante": {
+        "Baseline": 0.1048,
+        "GMM (full)": 0.0998,
+        "Index-Variante": 1.0,
+        "Iteration 2 (z)": 0.3832,
+        "Ward": 0.1867,
+        "k-Means": 0.2824,
+        "k-Means ohne PCA": 0.2851
+      },
+      "Iteration 2 (z)": {
+        "Baseline": 0.115,
+        "GMM (full)": 0.1283,
+        "Index-Variante": 0.3832,
+        "Iteration 2 (z)": 1.0,
+        "Ward": 0.3227,
+        "k-Means": 0.462,
+        "k-Means ohne PCA": 0.4608
+      },
+      "Ward": {
+        "Baseline": 0.0851,
+        "GMM (full)": 0.2769,
+        "Index-Variante": 0.1867,
+        "Iteration 2 (z)": 0.3227,
+        "Ward": 1.0,
+        "k-Means": 0.4761,
+        "k-Means ohne PCA": 0.4781
+      },
+      "k-Means": {
+        "Baseline": 0.0962,
+        "GMM (full)": 0.3114,
+        "Index-Variante": 0.2824,
+        "Iteration 2 (z)": 0.462,
+        "Ward": 0.4761,
+        "k-Means": 1.0,
+        "k-Means ohne PCA": 0.9373
+      },
+      "k-Means ohne PCA": {
+        "Baseline": 0.0948,
+        "GMM (full)": 0.2974,
+        "Index-Variante": 0.2851,
+        "Iteration 2 (z)": 0.4608,
+        "Ward": 0.4781,
+        "k-Means": 0.9373,
+        "k-Means ohne PCA": 1.0
+      }
+    },
+    "bootstrap_resamples": 100,
+    "final_ari_min": 0.443246,
+    "final_ari_mittel": 0.846285,
+    "final_ari_q05": 0.734109,
+    "final_ari_std": 0.0844289,
+    "final_min_share_ok": true,
+    "gmm_anteil_max_posterior_unter_schwelle": 0.00353669,
+    "gmm_ari_mittel": 0.606566,
+    "gmm_max_posterior_median": 1.0,
+    "gmm_posterior_schwelle": 0.8,
+    "index_variante_silhouette": 0.234865,
+    "kmeans_ari_mittel_je_k": {
+      "10": 0.605585,
+      "2": 0.919018,
+      "3": 0.903952,
+      "4": 0.846285,
+      "5": 0.673991,
+      "6": 0.789281,
+      "7": 0.72442,
+      "8": 0.672833,
+      "9": 0.640384
+    },
+    "kmeans_ari_q05_je_k": {
+      "10": 0.467315,
+      "2": 0.853411,
+      "3": 0.804472,
+      "4": 0.734109,
+      "5": 0.451625,
+      "6": 0.604493,
+      "7": 0.541848,
+      "8": 0.505528,
+      "9": 0.484135
+    },
+    "vergleich_ari": 0.631115,
+    "vergleich_groessen": {
+      "1": 469,
+      "2": 405,
+      "3": 257
+    },
+    "vergleich_k": 3,
+    "vergleich_kreuztabelle": {
+      "1": {
+        "1": 0,
+        "2": 254,
+        "3": 215,
+        "4": 0
+      },
+      "2": {
+        "1": 348,
+        "2": 23,
+        "3": 33,
+        "4": 1
+      },
+      "3": {
+        "1": 2,
+        "2": 0,
+        "3": 23,
+        "4": 232
+      }
+    },
+    "vergleich_mittelwerte": {
+      "1": {
+        "anonymity_protected": 0.5139,
+        "care_options_known": 0.4115,
+        "career_hurt": 0.2937,
+        "comfort_coworkers": 0.1834,
+        "comfort_supervisor": 0.209,
+        "coworkers_view_negative": 0.3811,
+        "leave_ease": 0.3571,
+        "mh_benefits": 0.5267,
+        "mh_neg_consequence_employer": 0.2953,
+        "mh_parity": 0.2836,
+        "mh_resources": 0.2921,
+        "observed_neg_consequences": 0.8529,
+        "ph_neg_consequence_employer": 0.7164,
+        "uncertainty_index": 0.3308,
+        "unsupportive_response": 0.5016,
+        "wellness_discussed": 0.0928
+      },
+      "2": {
+        "anonymity_protected": 0.5864,
+        "care_options_known": 0.4198,
+        "career_hurt": 0.4778,
+        "comfort_coworkers": 0.6272,
+        "comfort_supervisor": 0.7642,
+        "coworkers_view_negative": 0.5975,
+        "leave_ease": 0.6994,
+        "mh_benefits": 0.5247,
+        "mh_neg_consequence_employer": 0.8235,
+        "mh_parity": 0.658,
+        "mh_resources": 0.2198,
+        "observed_neg_consequences": 0.9852,
+        "ph_neg_consequence_employer": 0.9494,
+        "uncertainty_index": 0.3418,
+        "unsupportive_response": 0.7574,
+        "wellness_discussed": 0.0914
+      },
+      "3": {
+        "anonymity_protected": 0.784,
+        "care_options_known": 0.6926,
+        "career_hurt": 0.4971,
+        "comfort_coworkers": 0.6537,
+        "comfort_supervisor": 0.7996,
+        "coworkers_view_negative": 0.5953,
+        "leave_ease": 0.7315,
+        "mh_benefits": 0.8658,
+        "mh_neg_consequence_employer": 0.7977,
+        "mh_parity": 0.7393,
+        "mh_resources": 0.8677,
+        "observed_neg_consequences": 0.93,
+        "ph_neg_consequence_employer": 0.9358,
+        "uncertainty_index": 0.2235,
+        "unsupportive_response": 0.6051,
+        "wellness_discussed": 0.7529
+      },
+      "gesamt": {
+        "anonymity_protected": 0.6012,
+        "care_options_known": 0.4783,
+        "career_hurt": 0.4058,
+        "comfort_coworkers": 0.4492,
+        "comfort_supervisor": 0.542,
+        "coworkers_view_negative": 0.5073,
+        "leave_ease": 0.5648,
+        "mh_benefits": 0.603,
+        "mh_neg_consequence_employer": 0.5986,
+        "mh_parity": 0.5212,
+        "mh_resources": 0.397,
+        "observed_neg_consequences": 0.9178,
+        "ph_neg_consequence_employer": 0.8497,
+        "uncertainty_index": 0.3103,
+        "unsupportive_response": 0.6167,
+        "wellness_discussed": 0.2423
+      }
+    },
+    "ward_ari_mittel": 0.421296
+  },
+  "umgebung": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "python": "3.14.4",
+    "sklearn": "1.9.1"
+  },
+  "vergleichsraum": {
+    "davies_bouldin_k_final": {
+      "Baseline": 5.65962,
+      "GMM (full)": 3.3172,
+      "Index-Variante": 2.86014,
+      "Iteration 2 (z)": 2.16209,
+      "Ward": 2.45444,
+      "k-Means": 2.22847,
+      "k-Means ohne PCA": 2.20644
+    },
+    "silhouette_je_k_baseline": {
+      "10": -0.0327257,
+      "2": 0.00211854,
+      "3": -0.0102417,
+      "4": 0.00721475,
+      "5": -0.00979013,
+      "6": -0.0186185,
+      "7": -0.0267737,
+      "8": -0.0445084,
+      "9": -0.0346276
+    },
+    "silhouette_je_k_final": {
+      "10": 0.107962,
+      "2": 0.17626,
+      "3": 0.142996,
+      "4": 0.126934,
+      "5": 0.11225,
+      "6": 0.113574,
+      "7": 0.112095,
+      "8": 0.111821,
+      "9": 0.109146
+    },
+    "silhouette_je_k_iteration2": {
+      "10": 0.0913482,
+      "2": 0.172121,
+      "3": 0.123566,
+      "4": 0.124278,
+      "5": 0.117021,
+      "6": 0.0987447,
+      "7": 0.0996576,
+      "8": 0.0890949,
+      "9": 0.0878668
+    },
+    "silhouette_k_final": {
+      "Baseline": 0.00721475,
+      "GMM (full)": 0.06968,
+      "Index-Variante": 0.0685648,
+      "Iteration 2 (z)": 0.124278,
+      "Ward": 0.101981,
+      "k-Means": 0.126934,
+      "k-Means ohne PCA": 0.127738
+    }
+  }
+}

@@ -1,0 +1,230 @@
+# konfiguration der pipeline. alle schwellenwerte und mappings für die analyse stehen hier,
+# reine darstellungssachen (schriftgrößen, farben, achsen) stehen im plot-code.
+
+random_state: 42
+
+data:
+  raw_file: data/raw/mental-heath-in-tech-2016_20161114.csv
+  kaggle_handle: osmi/mental-health-in-tech-2016
+  expected_shape: [1433, 63]
+
+paths:
+  figures: figures
+  results: results
+
+# kurzcode je originalspalte in der reihenfolge der csv, prefix wird gegen den fragetext geprüft
+codebook:
+  - {code: self_employed, block: Arbeitskontext, prefix: "Are you self-employed"}
+  - {code: company_size, block: Arbeitskontext, prefix: "How many employees"}
+  - {code: tech_company, block: Arbeitskontext, prefix: "Is your employer primarily a tech"}
+  - {code: tech_role, block: Arbeitskontext, prefix: "Is your primary role"}
+  - {code: mh_benefits, block: Arbeitgeber-Angebote, prefix: "Does your employer provide mental health benefits"}
+  - {code: care_options_known, block: Arbeitgeber-Angebote, prefix: "Do you know the options"}
+  - {code: wellness_discussed, block: Arbeitgeber-Angebote, prefix: "Has your employer ever formally discussed"}
+  - {code: mh_resources, block: Arbeitgeber-Angebote, prefix: "Does your employer offer resources"}
+  - {code: anonymity_protected, block: Arbeitgeber-Angebote, prefix: "Is your anonymity protected"}
+  - {code: leave_ease, block: Arbeitgeber-Angebote, prefix: "If a mental health issue prompted you to request"}
+  - {code: mh_neg_consequence_employer, block: Offenheit/Stigma, prefix: "Do you think that discussing a mental health disorder with your employer"}
+  - {code: ph_neg_consequence_employer, block: Offenheit/Stigma, prefix: "Do you think that discussing a physical health issue with your employer"}
+  - {code: comfort_coworkers, block: Offenheit/Stigma, prefix: "Would you feel comfortable discussing a mental health disorder with your coworkers"}
+  - {code: comfort_supervisor, block: Offenheit/Stigma, prefix: "Would you feel comfortable discussing a mental health disorder with your direct"}
+  - {code: mh_parity, block: Offenheit/Stigma, prefix: "Do you feel that your employer takes mental health"}
+  - {code: observed_neg_consequences, block: Offenheit/Stigma, prefix: "Have you heard of or observed negative"}
+  - {code: self_med_coverage, block: Selbststaendige, prefix: "Do you have medical coverage"}
+  - {code: self_know_resources, block: Selbststaendige, prefix: "Do you know local or online resources"}
+  - {code: self_reveal_clients, block: Selbststaendige, prefix: "If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to clients"}
+  - {code: self_reveal_clients_impact, block: Selbststaendige, prefix: "If you have revealed a mental health issue to a client"}
+  - {code: self_reveal_coworkers, block: Selbststaendige, prefix: "If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers"}
+  - {code: self_reveal_coworkers_impact, block: Selbststaendige, prefix: "If you have revealed a mental health issue to a coworker"}
+  - {code: self_productivity_affected, block: Selbststaendige, prefix: "Do you believe your productivity"}
+  - {code: self_worktime_affected, block: Selbststaendige, prefix: "If yes, what percentage"}
+  - {code: has_prev_employer, block: Fruehere Arbeitgeber, prefix: "Do you have previous employers"}
+  - {code: prev_benefits, block: Fruehere Arbeitgeber, prefix: "Have your previous employers provided"}
+  - {code: prev_care_options_known, block: Fruehere Arbeitgeber, prefix: "Were you aware of the options"}
+  - {code: prev_wellness_discussed, block: Fruehere Arbeitgeber, prefix: "Did your previous employers ever formally discuss"}
+  - {code: prev_resources, block: Fruehere Arbeitgeber, prefix: "Did your previous employers provide resources"}
+  - {code: prev_anonymity, block: Fruehere Arbeitgeber, prefix: "Was your anonymity protected"}
+  - {code: prev_mh_neg_consequence, block: Fruehere Arbeitgeber, prefix: "Do you think that discussing a mental health disorder with previous"}
+  - {code: prev_ph_neg_consequence, block: Fruehere Arbeitgeber, prefix: "Do you think that discussing a physical health issue with previous"}
+  - {code: prev_comfort_coworkers, block: Fruehere Arbeitgeber, prefix: "Would you have been willing to discuss a mental health issue with your previous"}
+  - {code: prev_comfort_supervisor, block: Fruehere Arbeitgeber, prefix: "Would you have been willing to discuss a mental health issue with your direct"}
+  - {code: prev_mh_parity, block: Fruehere Arbeitgeber, prefix: "Did you feel that your previous employers"}
+  - {code: prev_observed_neg_consequences, block: Fruehere Arbeitgeber, prefix: "Did you hear of or observe"}
+  - {code: interview_ph, block: Einstellungen/Stigma allgemein, prefix: "Would you be willing to bring up a physical"}
+  - {code: interview_ph_why, block: Freitext, prefix: "Why or why not?"}
+  - {code: interview_mh, block: Einstellungen/Stigma allgemein, prefix: "Would you bring up a mental health issue"}
+  - {code: interview_mh_why, block: Freitext, prefix: "Why or why not?"}
+  - {code: career_hurt, block: Einstellungen/Stigma allgemein, prefix: "Do you feel that being identified"}
+  - {code: coworkers_view_negative, block: Einstellungen/Stigma allgemein, prefix: "Do you think that team members"}
+  - {code: openness_friends_family, block: Einstellungen/Stigma allgemein, prefix: "How willing would you be to share"}
+  - {code: unsupportive_response, block: Einstellungen/Stigma allgemein, prefix: "Have you observed or experienced an unsupportive"}
+  - {code: observation_less_likely_reveal, block: Einstellungen/Stigma allgemein, prefix: "Have your observations"}
+  - {code: family_history, block: Eigene Gesundheit, prefix: "Do you have a family history"}
+  - {code: mh_past, block: Eigene Gesundheit, prefix: "Have you had a mental health disorder in the past"}
+  - {code: mh_current, block: Eigene Gesundheit, prefix: "Do you currently have"}
+  - {code: diagnoses_current_yes, block: Eigene Gesundheit, prefix: "If yes, what condition"}
+  - {code: diagnoses_believed_maybe, block: Eigene Gesundheit, prefix: "If maybe, what condition"}
+  - {code: diagnosed_professional, block: Eigene Gesundheit, prefix: "Have you been diagnosed"}
+  - {code: diagnoses_professional, block: Eigene Gesundheit, prefix: "If so, what condition"}
+  - {code: treatment_sought, block: Eigene Gesundheit, prefix: "Have you ever sought treatment"}
+  - {code: interference_treated, block: Eigene Gesundheit, prefix: "If you have a mental health issue, do you feel that it interferes with your work when being"}
+  - {code: interference_untreated, block: Eigene Gesundheit, prefix: "If you have a mental health issue, do you feel that it interferes with your work when NOT"}
+  - {code: age, block: Demografie, prefix: "What is your age"}
+  - {code: gender, block: Demografie, prefix: "What is your gender"}
+  - {code: country_live, block: Demografie, prefix: "What country do you live"}
+  - {code: us_state_live, block: Demografie, prefix: "What US state or territory do you live"}
+  - {code: country_work, block: Demografie, prefix: "What country do you work"}
+  - {code: us_state_work, block: Demografie, prefix: "What US state or territory do you work"}
+  - {code: work_position, block: Arbeitskontext, prefix: "Which of the following best describes"}
+  - {code: remote, block: Arbeitskontext, prefix: "Do you work remotely"}
+
+cleaning:
+  age_min: 18
+  age_max: 75
+  multiselect_separator: "|"
+
+# regelwörterbuch für die geschlechtsangaben (text vorher kleingeschrieben, satzzeichen entfernt)
+gender_rules:
+  male_exact: [male, m, man, cis male, male cis, cis man, malr, dude, cisdude, mail, sex is male]
+  female_exact: [female, f, woman, cis female, cisgender female, female assigned at birth, i identify as female, female/woman, fem, fm]
+  diverse_exact: [male 9:1 female roughly]
+  missing_exact: [none of your business, '']
+  male_contains: [male, man, ftm, f2m]
+  female_contains: [female, woman, fem, m2f, mtf]
+  # trans-angaben nach selbstbeschreibung, z. b. "transgender woman" -> weiblich
+  diverse_contains: [non-binary, nonbinary, nb, genderqueer, genderfluid, agender, androgynous, bigender, queer, other, fluid, unicorn, human, enby, demi]
+  labels: {male: maennlich, female: weiblich, diverse: divers/andere, missing: keine Angabe}
+
+# länder -> regionen (feature grouping)
+regions:
+  Nordamerika: [United States of America, Canada]
+  UK/Irland: [United Kingdom, Ireland]
+  Westeuropa: [Germany, Netherlands, France, Belgium, Switzerland, Austria, Spain, Italy, Denmark, Sweden, Norway, Finland, Greece]
+  Osteuropa: [Poland, Czech Republic, Slovakia, Hungary, Romania, Bulgaria, Lithuania, Estonia, Serbia, Bosnia and Herzegovina, Russia]
+  Ozeanien: [Australia, New Zealand]
+  default: Sonstige
+
+# ordinale kodierung der arbeitsplatz-items, höher = günstiger.
+# "weiß nicht" bekommt 0,5 und zählt zusätzlich im uncertainty_index.
+ordinal_maps:
+  mh_benefits: {"Yes": 1.0, "I don't know": 0.5, "No": 0.0, "Not eligible for coverage / N/A": 0.0}
+  care_options_known: {"Yes": 1.0, "I am not sure": 0.5, "No": 0.0}
+  wellness_discussed: {"Yes": 1.0, "I don't know": 0.5, "No": 0.0}
+  mh_resources: {"Yes": 1.0, "I don't know": 0.5, "No": 0.0}
+  anonymity_protected: {"Yes": 1.0, "I don't know": 0.5, "No": 0.0}
+  leave_ease: {"Very easy": 1.0, "Somewhat easy": 0.75, "Neither easy nor difficult": 0.5, "I don't know": 0.5, "Somewhat difficult": 0.25, "Very difficult": 0.0}
+  mh_neg_consequence_employer: {"No": 1.0, "Maybe": 0.5, "Yes": 0.0}
+  ph_neg_consequence_employer: {"No": 1.0, "Maybe": 0.5, "Yes": 0.0}
+  comfort_coworkers: {"Yes": 1.0, "Maybe": 0.5, "No": 0.0}
+  comfort_supervisor: {"Yes": 1.0, "Maybe": 0.5, "No": 0.0}
+  mh_parity: {"Yes": 1.0, "I don't know": 0.5, "No": 0.0}
+  observed_neg_consequences: {"No": 1.0, "Yes": 0.0}
+  career_hurt: {"No, it has not": 1.0, "No, I don't think it would": 0.75, "Maybe": 0.5, "Yes, I think it would": 0.25, "Yes, it has": 0.0}
+  coworkers_view_negative: {"No, they do not": 1.0, "No, I don't think they would": 0.75, "Maybe": 0.5, "Yes, I think they would": 0.25, "Yes, they do": 0.0}
+  unsupportive_response: {"No": 1.0, "Maybe/Not sure": 0.5, "Yes, I observed": 0.25, "Yes, I experienced": 0.0}
+
+# wert für fehlende antworten (nach dem filter nur bei care_options_known und unsupportive_response),
+# fehlende antworten zählen nicht als unsicherheit
+ordinal_missing_value: 0.5
+
+# ausdrückliche antworten, die als unsicherheit zählen ("maybe" ist eine echte mittelposition und zählt nicht)
+uncertain_answers: ["I don't know", "I am not sure"]
+uncertainty_items: [mh_benefits, care_options_known, wellness_discussed, mh_resources, anonymity_protected, leave_ease, mh_parity]
+
+# indizes = mittelwert der items, invert dreht die richtung um
+indices:
+  support_index: {items: [mh_benefits, care_options_known, wellness_discussed, mh_resources, anonymity_protected], invert: false}
+  openness_index: {items: [comfort_coworkers, comfort_supervisor], invert: false}
+  stigma_index: {items: [mh_neg_consequence_employer, observed_neg_consequences, career_hurt, coworkers_view_negative, unsupportive_response], invert: true}
+
+# merkmale fürs clustering: wahrnehmung des arbeitsplatzes
+clustering_items: [mh_benefits, care_options_known, wellness_discussed, mh_resources, anonymity_protected, leave_ease,
+                   mh_neg_consequence_employer, ph_neg_consequence_employer, comfort_coworkers, comfort_supervisor,
+                   mh_parity, observed_neg_consequences, career_hurt, coworkers_view_negative, unsupportive_response]
+clustering_generated: [uncertainty_index]
+
+# nie clustering-input, werden nur aggregiert beschrieben
+protected_attributes: [age, gender, country_live, country_work, us_state_live, us_state_work,
+                       age_clean, gender_clean, region_work, region_live]
+
+selection:
+  variance_threshold: 0.01          # bezogen auf die 0-1-skala
+  baseline_variance_threshold: 0.01 # für die one-hot-baseline
+  corr_threshold: 0.70              # ab diesem |spearman rho| gilt ein merkmal als redundant
+  rho_report_threshold: 0.5         # gezählt werden die paare mit |rho| darüber
+
+scaling:
+  # minmax: die items liegen schon alle auf 0 bis 1 (kovarianz-pca),
+  # z-werte laufen als vergleich in iteration 2 mit
+  method: minmax
+  compare_method: standard
+
+reduction:
+  pca_variance_threshold: 0.80
+  pca_loadings_components: 4
+  mds_dims: [1, 2, 3, 4, 5]
+  mds_n_init: 2
+  mds_max_iter: 300
+  lle_neighbors: [5, 10, 20, 40]
+  # im vergleich wird die lle-variante mit der besten trustworthiness (k = trust_select_k) genommen
+  lle_reg: 0.001
+  trustworthiness_k: [5, 10]
+  trust_select_k: 10
+
+clustering:
+  k_range: [2, 10]
+  kmeans_n_init: 20
+  gmm_covariance_types: [full, diag, tied]
+  gmm_n_init: 5
+  gmm_bic_k_range: [2, 20]         # größerer suchbereich nur für den bic-verlauf der gmm
+  bootstrap_resamples: 100
+  min_cluster_share: 0.05          # mindestanteil je cluster, wird beim endmodell geprüft
+  bootstrap_quantile: 0.05         # unteres quantil des bootstrap-ari für den bericht
+  gmm_posterior_threshold: 0.8     # darunter gilt eine gmm-zuordnung als unsicher
+  compare_k: 3                     # alternative lösung, die direkt mit final_k verglichen wird
+  baseline_top_drivers: 8          # so viele trennende merkmale der baseline werden gespeichert
+  final_method: kmeans
+  final_k: 4
+
+profiling:
+  min_cell_n: 10                   # zellen und varianten mit kleinerem n werden unterdrückt bzw. zusammengefasst
+  chi2_min_expected: 5             # kategorien mit kleinerer erwarteter häufigkeit fliegen vor dem chi²-test raus
+  # inhaltlich nah an den clustering-items, taugen nur eingeschränkt zur validierung
+  construct_near_vars: [interview_mh, openness_friends_family]
+  # aus den clustering-items abgeleitet, daher nur beschreibend
+  circular_vars: [support_index, openness_index, stigma_index, uncertainty_index]
+  top_features_per_cluster: 8
+  categorical_vars: [mh_current, mh_past, diagnosed_professional, treatment_sought, interference_untreated, family_history,
+                     company_size, remote, region_work, gender_clean, interview_mh, openness_friends_family]
+  numeric_vars: [age_clean, support_index, openness_index, stigma_index, uncertainty_index]
+
+textmine:
+  column: interview_mh_why
+  ngram_range: [1, 2]
+  min_df: 5
+  max_df: 0.5
+  top_terms: 8
+  min_text_length: 3
+
+# deutsche kurzbeschriftungen für grafiken und tabellen
+labels_de:
+  mh_benefits: Leistungen psych. Gesundheit
+  care_options_known: Versorgungsoptionen bekannt
+  wellness_discussed: Thema offiziell kommuniziert
+  mh_resources: Informationsressourcen
+  anonymity_protected: Anonymität geschützt
+  leave_ease: Freistellung leicht
+  mh_neg_consequence_employer: Keine neg. Folgen (psychisch)
+  ph_neg_consequence_employer: Keine neg. Folgen (körperlich)
+  comfort_coworkers: Offenheit ggü. Kollegium
+  comfort_supervisor: Offenheit ggü. Vorgesetzten
+  mh_parity: Psych. = körperl. Gesundheit
+  observed_neg_consequences: Keine neg. Folgen beobachtet
+  career_hurt: Kein Karriereschaden erwartet
+  coworkers_view_negative: Keine Abwertung durch Team
+  unsupportive_response: Keine schlechte Reaktion erlebt
+  uncertainty_index: Unsicherheitsindex
+  informedness: Informiertheit (1 − Unsicherheit)
+  support_index: Unterstützungsindex
+  openness_index: Offenheitsindex
+  stigma_index: Stigmaindex

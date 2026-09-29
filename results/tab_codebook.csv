@@ -1,0 +1,64 @@
+code,block,frage,fehlwertquote,n_auspraegungen
+self_employed,Arbeitskontext,Are you self-employed?,0.0,2
+company_size,Arbeitskontext,How many employees does your company or organization have?,0.2,6
+tech_company,Arbeitskontext,Is your employer primarily a tech company/organization?,0.2,2
+tech_role,Arbeitskontext,Is your primary role within your company related to tech/IT?,0.816,2
+mh_benefits,Arbeitgeber-Angebote,Does your employer provide mental health benefits as part of healthcare coverage?,0.2,4
+care_options_known,Arbeitgeber-Angebote,Do you know the options for mental health care available under your employer-provided coverage?,0.293,3
+wellness_discussed,Arbeitgeber-Angebote,"Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?",0.2,3
+mh_resources,Arbeitgeber-Angebote,Does your employer offer resources to learn more about mental health concerns and options for seeking help?,0.2,3
+anonymity_protected,Arbeitgeber-Angebote,Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?,0.2,3
+leave_ease,Arbeitgeber-Angebote,"If a mental health issue prompted you to request a medical leave from work, asking for that leave would be:",0.2,6
+mh_neg_consequence_employer,Offenheit/Stigma,Do you think that discussing a mental health disorder with your employer would have negative consequences?,0.2,3
+ph_neg_consequence_employer,Offenheit/Stigma,Do you think that discussing a physical health issue with your employer would have negative consequences?,0.2,3
+comfort_coworkers,Offenheit/Stigma,Would you feel comfortable discussing a mental health disorder with your coworkers?,0.2,3
+comfort_supervisor,Offenheit/Stigma,Would you feel comfortable discussing a mental health disorder with your direct supervisor(s)?,0.2,3
+mh_parity,Offenheit/Stigma,Do you feel that your employer takes mental health as seriously as physical health?,0.2,3
+observed_neg_consequences,Offenheit/Stigma,Have you heard of or observed negative consequences for co-workers who have been open about mental health issues in your workplace?,0.2,2
+self_med_coverage,Selbststaendige,Do you have medical coverage (private insurance or state-provided) which includes treatment of  mental health issues?,0.8,2
+self_know_resources,Selbststaendige,Do you know local or online resources to seek help for a mental health disorder?,0.8,3
+self_reveal_clients,Selbststaendige,"If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to clients or business contacts?",0.8,5
+self_reveal_clients_impact,Selbststaendige,"If you have revealed a mental health issue to a client or business contact, do you believe this has impacted you negatively?",0.9,3
+self_reveal_coworkers,Selbststaendige,"If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or employees?",0.8,5
+self_reveal_coworkers_impact,Selbststaendige,"If you have revealed a mental health issue to a coworker or employee, do you believe this has impacted you negatively?",0.8,4
+self_productivity_affected,Selbststaendige,Do you believe your productivity is ever affected by a mental health issue?,0.8,4
+self_worktime_affected,Selbststaendige,"If yes, what percentage of your work time (time performing primary or secondary job functions) is affected by a mental health issue?",0.858,4
+has_prev_employer,Fruehere Arbeitgeber,Do you have previous employers?,0.0,2
+prev_benefits,Fruehere Arbeitgeber,Have your previous employers provided mental health benefits?,0.118,4
+prev_care_options_known,Fruehere Arbeitgeber,Were you aware of the options for mental health care provided by your previous employers?,0.118,4
+prev_wellness_discussed,Fruehere Arbeitgeber,Did your previous employers ever formally discuss mental health (as part of a wellness campaign or other official communication)?,0.118,4
+prev_resources,Fruehere Arbeitgeber,Did your previous employers provide resources to learn more about mental health issues and how to seek help?,0.118,3
+prev_anonymity,Fruehere Arbeitgeber,Was your anonymity protected if you chose to take advantage of mental health or substance abuse treatment resources with previous employers?,0.118,4
+prev_mh_neg_consequence,Fruehere Arbeitgeber,Do you think that discussing a mental health disorder with previous employers would have negative consequences?,0.118,4
+prev_ph_neg_consequence,Fruehere Arbeitgeber,Do you think that discussing a physical health issue with previous employers would have negative consequences?,0.118,3
+prev_comfort_coworkers,Fruehere Arbeitgeber,Would you have been willing to discuss a mental health issue with your previous co-workers?,0.118,3
+prev_comfort_supervisor,Fruehere Arbeitgeber,Would you have been willing to discuss a mental health issue with your direct supervisor(s)?,0.118,4
+prev_mh_parity,Fruehere Arbeitgeber,Did you feel that your previous employers took mental health as seriously as physical health?,0.118,4
+prev_observed_neg_consequences,Fruehere Arbeitgeber,Did you hear of or observe negative consequences for co-workers with mental health issues in your previous workplaces?,0.118,3
+interview_ph,Einstellungen/Stigma allgemein,Would you be willing to bring up a physical health issue with a potential employer in an interview?,0.0,3
+interview_ph_why,Freitext,Why or why not?,0.236,1085
+interview_mh,Einstellungen/Stigma allgemein,Would you bring up a mental health issue with a potential employer in an interview?,0.0,3
+interview_mh_why,Freitext,Why or why not?,0.214,1080
+career_hurt,Einstellungen/Stigma allgemein,Do you feel that being identified as a person with a mental health issue would hurt your career?,0.0,5
+coworkers_view_negative,Einstellungen/Stigma allgemein,Do you think that team members/co-workers would view you more negatively if they knew you suffered from a mental health issue?,0.0,5
+openness_friends_family,Einstellungen/Stigma allgemein,How willing would you be to share with friends and family that you have a mental illness?,0.0,6
+unsupportive_response,Einstellungen/Stigma allgemein,Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?,0.062,4
+observation_less_likely_reveal,Einstellungen/Stigma allgemein,Have your observations of how another individual who discussed a mental health disorder made you less likely to reveal a mental health issue yourself in your current workplace?,0.542,3
+family_history,Eigene Gesundheit,Do you have a family history of mental illness?,0.0,3
+mh_past,Eigene Gesundheit,Have you had a mental health disorder in the past?,0.0,3
+mh_current,Eigene Gesundheit,Do you currently have a mental health disorder?,0.0,3
+diagnoses_current_yes,Eigene Gesundheit,"If yes, what condition(s) have you been diagnosed with?",0.604,128
+diagnoses_believed_maybe,Eigene Gesundheit,"If maybe, what condition(s) do you believe you have?",0.775,99
+diagnosed_professional,Eigene Gesundheit,Have you been diagnosed with a mental health condition by a medical professional?,0.0,2
+diagnoses_professional,Eigene Gesundheit,"If so, what condition(s) were you diagnosed with?",0.504,116
+treatment_sought,Eigene Gesundheit,Have you ever sought treatment for a mental health issue from a mental health professional?,0.0,2
+interference_treated,Eigene Gesundheit,"If you have a mental health issue, do you feel that it interferes with your work when being treated effectively?",0.0,5
+interference_untreated,Eigene Gesundheit,"If you have a mental health issue, do you feel that it interferes with your work when NOT being treated effectively?",0.0,5
+age,Demografie,What is your age?,0.0,53
+gender,Demografie,What is your gender?,0.002,70
+country_live,Demografie,What country do you live in?,0.0,53
+us_state_live,Demografie,What US state or territory do you live in?,0.414,47
+country_work,Demografie,What country do you work in?,0.0,53
+us_state_work,Demografie,What US state or territory do you work in?,0.406,48
+work_position,Arbeitskontext,Which of the following best describes your work position?,0.0,264
+remote,Arbeitskontext,Do you work remotely?,0.0,3
